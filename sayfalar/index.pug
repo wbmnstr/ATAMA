@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stil.css")
+        title ATAMA SORGU
+    body 
+        .container
+            header
+                h1(align="center") ATAMA SORGU
+                p(align="center") 2024 yılı Çorum İl Emniyet Müdürlüğü <br>
+                    | Atama Sonuçları Sorgulama Ekranı
+            form(method="post")
+                .formpart
+                    label(for="sicil") Sicil
+                    input#sicil(type="text" name="sicil")
+                .formpart
+                    label(for="tc") T.C. No
+                    input#tc(type="text" name="tc")
+                .formpart
+                    input(type="submit", value="SORGULA")
