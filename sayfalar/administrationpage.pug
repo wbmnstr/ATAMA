@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stil.css")
+        title ATAMACI
+    body 
+        .container 
+            header 
+                h1 ATAMA EKRANI DÜZENLEME PANELİ
+            form(method="post")
+                .formpart
+                    label Ana Başlık
+                    input(type="text", name="baslik", value=content.baslik) 
+                    label Alt Başlık
+                    textarea(name="altbaslik" rows=3)=content.altbaslik
+                    label 1. input başlığı
+                    input(type="text", name="input1", value=content.input1)
+                    label 2. input başlığı
+                    input(type="text", name="input2", value=content.input2)
+                    label Form kayıt butonu başlığı
+                    input(type="text", name="submitbutonu", value=content.submitbutonu)
+                    label Arkaplan Resmi
+                    input(type="file", name="backgroundimage")
+                    br
+                    input(type="submit", value="GÜNCELLE")

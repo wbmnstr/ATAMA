@@ -8,15 +8,14 @@ html(lang="en")
     body 
         .container
             header
-                h1(align="center") ATAMA SORGU
-                p(align="center") 2024 yılı Çorum İl Emniyet Müdürlüğü <br>
-                    | Atama Sonuçları Sorgulama Ekranı
+                h1(align="center")=content.baslik
+                p(align="center")!=content.altbaslik
             form(method="post")
                 .formpart
-                    label(for="sicil") Sicil
-                    input#sicil(type="text" name="sicil")
+                    label(for="sicil")=content.input1
+                    input#sicil(type="text" name="sicil" autocomplete="off")
                 .formpart
-                    label(for="tc") T.C. No
-                    input#tc(type="text" name="tc")
+                    label(for="tc")=content.input2
+                    input#tc(type="text" name="tc" autocomplete="off")
                 .formpart
-                    input(type="submit", value="SORGULA")
+                    input(type="submit", value=content.submitbutonu)

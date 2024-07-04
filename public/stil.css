@@ -1,5 +1,5 @@
 html{
-    background-image: url(corum1.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -21,28 +21,33 @@ body{
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.6) 0 0 50px;
     overflow: hidden;
+    backdrop-filter: blur(2px) saturate(0);
 }
 header{
     background-color: rgba(41, 74, 182, 0.2);
     border-bottom: rgba(41, 74, 182, 0.5) solid thick;
-    padding: 10px;
+    padding: 0 30px;
     box-sizing: border-box;
     width: 100%;
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 100;
     margin: 0;
 }
 p{
-    font-size: 2em;
+    font-weight: 100;
+    font-size: 1.7em;
+    width: 400px;
+    display: block;
+    margin: auto;
 }
 form{margin:20px}
 
 .formpart *{
     display: block;
-    font-size: 2em;
+    font-size: 1.7em;
 
 }
 
@@ -62,11 +67,17 @@ input{
     padding: 10px;
 }
 
-input[type="text"]{
+textarea{
+    width: 100%;
+    box-sizing: border-box;
 }
 
 input[type="submit"]{
     cursor: pointer;
     background-color: #b62964;
     color: white;
+}
+input::placeholder{
+    color:#ffe2ee;
+    font-weight: 100;
 }
