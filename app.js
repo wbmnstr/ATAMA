@@ -10,7 +10,7 @@ app.set('view engine', 'pug');
 app.set('views', './sayfalar');
 app.use(express.static('public'));
 
-const [getHome, postSorgu, getAdmin, postAdmin] = [
+const [getHome, postSorgu, getAdmin, postAdminRouter] = [
     require('./actions/getHome'), 
     require('./actions/postSorgu'), 
     require('./actions/getAdmin'), 
@@ -20,8 +20,14 @@ const [getHome, postSorgu, getAdmin, postAdmin] = [
 app.get('/', getHome);
 app.post('/', postSorgu);
 app.get('/administrationpage', getAdmin);
-app.post('/administrationpage', postAdmin);
+app.use('/', postAdminRouter);
 
+app.use((err, req, res, next) => {
+    if (err) {
+      return res.send(err.message);
+    }
+    next();
+  });
 
 
 app.listen(PORT, () => {

@@ -9,13 +9,14 @@ html(lang="en")
         .container 
             header 
                 h1 ATAMA EKRANI DÜZENLEME PANELİ
-            form(method="post")
+            form( action="/administrationpage" method="post" enctype="multipart/form-data")
                 .formpart
                     label Ana Başlık
                     input(type="text", name="baslik", value=content.baslik) 
                 .formpart
                     label Alt Başlık
                     textarea(name="altbaslik" rows=3)=content.altbaslik
+                    small Bu bölümde <b>html</b> etiketleri kullanabilirsiniz.
                 .formpart
                     label 1. input başlığı
                     input(type="text", name="input1", value=content.input1)
@@ -28,7 +29,5 @@ html(lang="en")
                 .formpart
                     label(for="uploadbutton") 📂 Arkaplan Resmi
                     input#uploadbutton(type="file" name="backgroundimage" hidden)
-                .formpart
-                    br
-                .formpart
-                    input(type="submit", value="GÜNCELLE")
+                br
+                input(type="submit", value="GÜNCELLE")
