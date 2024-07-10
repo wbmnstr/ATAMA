@@ -48,6 +48,29 @@ body{
 .container form .formpart small{
     font-size: x-small;
 }
+.container form .formpart:has(input[type='file']):hover{
+    background-color: #ccc;
+}
+.container form input[type="file"]{
+    position: relative;
+}
+
 .container form input[type="file"]::file-selector-button{
     display: none;
+}
+.container form input[type="file"]::before{
+    content: '📂';
+    top: 0;
+    left: 0;
+    font-size: 3em;
+    margin-right: 20px;
+}
+
+.container form input[type='submit']{
+    padding: 10px;
+    font-size: large;
+    color: #777;
+    border:thin solid #777;
+    border-radius: 5px;
+    margin-right: 20px;
 }

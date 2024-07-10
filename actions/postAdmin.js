@@ -36,6 +36,8 @@ const upload = multer({
 });
 
 const uploadFile = (req, res) => {
+    req.body.logo = req.body.logo || 'bg/logo.png';
+    req.body.bg = req.body.bg || 'bg/bg.jpg';
     fs.writeFile('content.json', JSON.stringify(req.body), (err) => {
         if (err) throw err;
         console.log('Dosya yazıldı');
