@@ -10,25 +10,37 @@ html(lang="en")
             header 
                 h1 ATAMA EKRANI DÜZENLEME PANELİ
             form( action="/administrationpage" method="post" enctype="multipart/form-data")
-                .formpart
-                    label Ana Başlık
-                    input(type="text", name="baslik", value=content.baslik) 
-                .formpart
-                    label Alt Başlık
-                    textarea(name="altbaslik" rows=3)=content.altbaslik
-                    small Bu bölümde <b>html</b> etiketleri kullanabilirsiniz.
-                .formpart
-                    label 1. input başlığı
-                    input(type="text", name="input1", value=content.input1)
-                .formpart
-                    label 2. input başlığı
-                    input(type="text", name="input2", value=content.input2)
-                .formpart
-                    label Form kayıt butonu başlığı
-                    input(type="text", name="submitbutonu", value=content.submitbutonu)
-                .formpart
-                    label(for="uploadbutton") Arkaplan Resmi
-                    br
-                    input#uploadbutton(type="file" name="backgroundimage" hidden)
+                table(align="center" border=1 bordercolor="#ccc" cellpadding=5 cellspacing=0)
+                    tr 
+                        td Ana Başlık
+                        td  
+                            input(type="text", name="baslik", value=content.baslik) 
+                    tr 
+                        td Başlık
+                            br
+                            small Bu bölümde <b>html</b> etiketleri kullanabilirsiniz.
+                        td 
+                            textarea(name="altbaslik" rows=3)=content.altbaslik
+                            br
+                    tr 
+                        td 1. input başlığı
+                        td 
+                            input(type="text", name="input1", value=content.input1)
+                    tr 
+                        td 2. input başlığı
+                        td
+                            input(type="text", name="input2", value=content.input2)
+                    tr 
+                        td Form kayıt butonu başlığı
+                        td 
+                            input(type="text", name="submitbutonu", value=content.submitbutonu)
+                    tr 
+                        td Sayfa Arkaplan Resmi
+                        td
+                            input#uploadbutton(type="file" name="backgroundimage")
+                    tr 
+                        td Logo
+                        td
+                            input#uploadbutton(type="file" name="logo")
                 br
                 input(type="submit", value="GÜNCELLE")
