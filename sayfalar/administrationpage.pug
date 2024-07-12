@@ -1,46 +1,24 @@
 doctype html
-html(lang="en")
+html(lang="tr")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="adminStil.css")
         title ATAMACI
     body 
+
         .container 
+
             header 
-                h1 ATAMA EKRANI DÜZENLEME PANELİ
-            form( action="/administrationpage" method="post" enctype="multipart/form-data")
-                table(align="center" border=1 bordercolor="#ccc" cellpadding=5 cellspacing=0)
-                    tr 
-                        td Ana Başlık
-                        td  
-                            input(type="text", name="baslik", value=content.baslik) 
-                    tr 
-                        td Başlık
-                            br
-                            small Bu bölümde <b>html</b> etiketleri kullanabilirsiniz.
-                        td 
-                            textarea(name="altbaslik" rows=3)=content.altbaslik
-                            br
-                    tr 
-                        td 1. input başlığı
-                        td 
-                            input(type="text", name="input1", value=content.input1)
-                    tr 
-                        td 2. input başlığı
-                        td
-                            input(type="text", name="input2", value=content.input2)
-                    tr 
-                        td Form kayıt butonu başlığı
-                        td 
-                            input(type="text", name="submitbutonu", value=content.submitbutonu)
-                    tr 
-                        td Sayfa Arkaplan Resmi
-                        td
-                            input#uploadbutton(type="file" name="backgroundimage")
-                    tr 
-                        td Logo
-                        td
-                            input#uploadbutton(type="file" name="logo")
-                br
-                input(type="submit", value="GÜNCELLE")
+                font(style="background:rgba(255,255,255,0.5); margin-right:20px") 👨‍✈️
+                | ATAMA EKRANI DÜZENLEME PANELİ
+
+            nav 
+                a.active(href="#") Sorgu Ekranı
+                a(href="#") Sorgu Sonuç Ekranı
+                a(href="#") Logo
+                a(href="#") Arkaplan
+
+            main 
+                block admincontent
+                    p layout sayfasında bulunan varsayılan veri.
