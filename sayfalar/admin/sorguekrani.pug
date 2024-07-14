@@ -1,4 +1,96 @@
 extends ../administrationpage.pug
+block admincontent
 
-block admincontent 
-    p merhaba
+    .preview(style=`
+    background-image:url(${bg.backgroundImage}); 
+    background-size:${bg.backgroundSize};
+    background-position:${bg.backgroundPosition};
+    `) 
+        span Önizleme
+
+    form(action="/administrationpage/sorguekrani", method="post") 
+        table(border=1 cellspacing=0 cellpadding="5" width=600) 
+            tr 
+                td Genel Yazı Boyutu 
+                td 
+                    label
+                        input(type="radio" name="fontsize" value="small") 
+                        | Küçük
+                    label
+                        input(type="radio" name="fontsize" value="medium") 
+                        | Orta
+                    label
+                        input(type="radio" name="fontsize" value="large") 
+                        | Büyük
+            tr 
+                td Ana Başlık 
+                td 
+                    input(type="text" name="mainhead" value=content.mainhead)
+            tr 
+                td Alt Başlık 
+                td 
+                    input(type="text" name="subhead" value=content.subhead)
+            tr 
+                td 1. Text alanı etiketi 
+                td 
+                    input(type="text" name="input1label" value=content.input1label)
+            tr 
+                td 2. Text alanı etiketi 
+                td 
+                    input(type="text" name="input2label" value=content.input2label)
+            tr 
+                td Submit Butonu etiketi 
+                td 
+                    input(type="text" name="submitlabel" value=content.submitlabel)
+            tr 
+                td Arkaplan Döşeme Stili : 
+                td 
+                    label
+                        input(type="radio" name="backgroundSize" value="cover" checked)
+                        | Boylamasına
+                    br
+                    label
+                        input(type="radio" name="backgroundSize" value="contain")
+                        | Enlemesine
+                    br
+                    label
+                        input(type="radio" name="backgroundSize" value="auto")
+                        | Gerçek boyut
+
+            tr 
+                td Arkaplan Konumu : 
+                td
+                    label
+                        input(type="radio" name="backgroundPosition" value="center" checked)
+                        | Orta
+                    br
+                    label
+                        input(type="radio" name="backgroundPosition" value="top")
+                        | Üst
+                    br
+                    label
+                        input(type="radio" name="backgroundPosition" value="left")
+                        | Sol
+                    br
+                    label
+                        input(type="radio" name="backgroundPosition" value="right")
+                        | Sağ
+                    br
+                    label
+                        input(type="radio" name="backgroundPosition" value="bottom")
+                        | Alt
+            tr
+                td Arkaplan Resmi : 
+                td  
+                    each file, ind in files
+                        .radio
+                            label
+                                input(type="radio" name="backgroundImage" value=file) 
+                                img(src="/bg/"+file width=150)
+
+            tr 
+                td 
+                td 
+                    input(type="submit" value="KAYDET")
+
+    style.

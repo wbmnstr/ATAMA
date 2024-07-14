@@ -1,0 +1,32 @@
+extends ../administrationpage.pug
+block admincontent
+
+    form.imgupload(
+        action="/administrationpage/arkaplan", 
+        method="post", enctype="multipart/form-data",
+        style="padding:20px; background:#dfdfdf;margin:0 0 30px 0") 
+        div
+            input#fileInput(type="file", name="arkaplanresmi" accept=".jpg")
+            br
+            input(type="submit", value="Arkaplan Resmi Yükle")  
+        div
+            img#preview(src="" width=200)
+
+    h2 Yüklü Arkaplan Resimleri : 
+    .gallery
+        each file, ind in files
+            img(src="/bg/"+file width=150)
+            
+    script. 
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+                    const file = event.target.files[0];
+                    if (file && file.type.startsWith('image/')) {
+                        const reader = new FileReader();
+                        reader.onload = function(e) {
+                            const img = document.getElementById('preview');
+                            img.src = e.target.result;
+                            img.style.display = 'block';
+                        }
+                        reader.readAsDataURL(file);
+                    }
+                });

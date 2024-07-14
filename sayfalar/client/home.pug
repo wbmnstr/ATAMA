@@ -1,0 +1,17 @@
+extends ../clientpage
+block clientcontent
+    div(style=`font-size:${content.fontsize}`)
+        header
+            center
+                img(src=content.logo width=250)
+            h1(align="center")=content.mainhead
+            p(align="center")!=content.subhead
+        form(method="post")
+            .formpart
+                label(for="sicil")=content.input1label
+                input#sicil(type="text" name="sicil" autocomplete="off")
+            .formpart
+                label(for="tc")=content.input2label
+                input#tc(type="text" name="tc" autocomplete="off")
+            .formpart
+                input(type="submit", value=content.submitlabel)

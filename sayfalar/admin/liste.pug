@@ -1,0 +1,25 @@
+extends ../administrationpage.pug
+block admincontent
+
+    fieldset 
+        legend hatırlatma 
+        ul
+            li Dosya <kbd>.xlsx</kbd> formatında olmaldır. 
+            li Personel listesi excel dosyamızın ilk sekmesinde bulunmalıdır.
+            li Excel saysının ilk satırı sütun başlıklarını içermelidir.
+            li Sütunlar şu şekilde sıralanmalıdır;
+                br
+                br
+                table(border=1 cellpadding=5 cellspacing=0) 
+                    tr
+                        td T.C. No
+                        td Sicil 
+                        td Ad
+                        td Soyad
+                        td Geldiği İl
+                        td Atandığı Birim
+    
+    form(action="/administrationpage/liste", method="post", enctype="multipart/form-data")  
+        input(type="file", name="liste", accept=".xlsx")
+        br
+        input(type="submit", value="LİSTEYİ GÖNDER")

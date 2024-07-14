@@ -2,7 +2,7 @@ body {
     height: 100vh;
     background-image: radial-gradient(#a7a7a7, #333);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -12,7 +12,7 @@ body {
     grid-template-areas:
         'hdr hdr'
         'nv mn';
-    grid-template-columns: 300px auto;
+    grid-template-columns: 200px auto;
     grid-template-rows: 80px auto;
 }
 
@@ -27,7 +27,6 @@ header {
     width: 100%;
     line-height: 80px;
     font-size: 2em;
-    padding-left: 200px;
 }
 
 nav {
@@ -93,4 +92,45 @@ main {
     box-sizing: border-box;
     background-color: #fdfdfd;
     grid-area: mn;
+}
+/************************************/
+table tr:nth-child(odd){
+    background-color: #f5f5f5;
+}
+table tr:nth-child(even){
+    background-color: #cacaca;
+}
+table{
+    border-spacing: 0;
+}
+
+.preview{
+    width: 600px;
+    height: 334px;
+    background-color: aquamarine;
+    position: relative;
+}
+.preview span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+}
+
+form.imgupload{
+    display: flex;
+    gap: 50px;
+    justify-content: start;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
 }

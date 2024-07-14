@@ -10,17 +10,10 @@ app.set('view engine', 'pug');
 app.set('views', './sayfalar');
 app.use(express.static('public'));
 
-const [getHome, postSorgu, getAdmin, postAdminRouter] = [
-    require('./actions/getHome'), 
-    require('./actions/postSorgu'), 
-    require('./actions/getAdmin'), 
-    require('./actions/postAdmin')
-];
-
-app.get('/', getHome);
-app.post('/', postSorgu);
-app.get('/administrationpage', getAdmin);
-app.use('/', postAdminRouter);
+const adminRoutes = require('./routes/adminrouter');
+const clientRoutes = require('./routes/clientrouter');
+app.use('/administrationpage', adminRoutes);
+app.use('/', clientRoutes);
 
 app.use((err, req, res, next) => {
     if (err) {
@@ -30,6 +23,13 @@ app.use((err, req, res, next) => {
   });
 
 
+
+
+
+
+
+
+  
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 })

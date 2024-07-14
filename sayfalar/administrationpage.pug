@@ -3,22 +3,20 @@ html(lang="tr")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(rel="stylesheet", href="adminStil.css")
-        title ATAMACI
+        link(rel="stylesheet", href="/adminStil.css")
+        title admin
     body 
-
         .container 
-
             header 
                 font(style="background:rgba(255,255,255,0.5); margin-right:20px") 👨‍✈️
                 | ATAMA EKRANI DÜZENLEME PANELİ
-
             nav 
-                a.active(href="#") Sorgu Ekranı
-                a(href="#") Sorgu Sonuç Ekranı
-                a(href="#") Logo
-                a(href="#") Arkaplan
+                a(href="/administrationpage" class=active=="home"&&"active") Anasayfa
+                a(href="/administrationpage/liste" class=active=="liste"&&"active") Liste Yükleme
+                a(href="/administrationpage/sorguekrani" class=active=="sorguekrani"&&"active") Sorgu Ekranı
+                a(href="/administrationpage/sonucekrani" class=active=="sonucekrani"&&"active") Sonuç Ekranı
+                a(href="/administrationpage/logo" class=active=="logo"&&"active") Logo
+                a(href="/administrationpage/arkaplan" class=active=="arkaplan"&&"active") Arkaplan
 
             main 
                 block admincontent
-                    p layout sayfasında bulunan varsayılan veri.
