@@ -2,9 +2,9 @@ extends ../administrationpage.pug
 block admincontent
 
     .preview(style=`
-    background-image:url(${bg.backgroundImage}); 
-    background-size:${bg.backgroundSize};
-    background-position:${bg.backgroundPosition};
+    background-image:url(/bg/${content.backgroundImage}); 
+    background-size:${content.backgroundSize};
+    background-position:${content.backgroundPosition};
     `) 
         span Önizleme
 
@@ -14,13 +14,13 @@ block admincontent
                 td Genel Yazı Boyutu 
                 td 
                     label
-                        input(type="radio" name="fontsize" value="small") 
+                        input(type="radio" name="fontsize" value="small" checked=content.fontsize == "small") 
                         | Küçük
                     label
-                        input(type="radio" name="fontsize" value="medium") 
+                        input(type="radio" name="fontsize" value="medium" checked=content.fontsize == "medium") 
                         | Orta
                     label
-                        input(type="radio" name="fontsize" value="large") 
+                        input(type="radio" name="fontsize" value="large" checked=content.fontsize == "large") 
                         | Büyük
             tr 
                 td Ana Başlık 
@@ -46,38 +46,38 @@ block admincontent
                 td Arkaplan Döşeme Stili : 
                 td 
                     label
-                        input(type="radio" name="backgroundSize" value="cover" checked)
-                        | Boylamasına
-                    br
-                    label
-                        input(type="radio" name="backgroundSize" value="contain")
+                        input(type="radio" name="backgroundSize" value="cover" checked=content.backgroundSize == "cover")
                         | Enlemesine
                     br
                     label
-                        input(type="radio" name="backgroundSize" value="auto")
+                        input(type="radio" name="backgroundSize" value="contain" checked=content.backgroundSize == "contain")
+                        | Boylamasına
+                    br
+                    label
+                        input(type="radio" name="backgroundSize" value="auto" checked=content.backgroundSize == "auto")
                         | Gerçek boyut
 
             tr 
                 td Arkaplan Konumu : 
                 td
                     label
-                        input(type="radio" name="backgroundPosition" value="center" checked)
+                        input(type="radio" name="backgroundPosition" value="center" checked=content.backgroundPosition == "center")
                         | Orta
                     br
                     label
-                        input(type="radio" name="backgroundPosition" value="top")
+                        input(type="radio" name="backgroundPosition" value="top" checked=content.backgroundPosition == "top")
                         | Üst
                     br
                     label
-                        input(type="radio" name="backgroundPosition" value="left")
+                        input(type="radio" name="backgroundPosition" value="left" checked=content.backgroundPosition == "left")
                         | Sol
                     br
                     label
-                        input(type="radio" name="backgroundPosition" value="right")
+                        input(type="radio" name="backgroundPosition" value="right" checked=content.backgroundPosition == "right")
                         | Sağ
                     br
                     label
-                        input(type="radio" name="backgroundPosition" value="bottom")
+                        input(type="radio" name="backgroundPosition" value="bottom" checked=content.backgroundPosition == "bottom")
                         | Alt
             tr
                 td Arkaplan Resmi : 
@@ -85,7 +85,7 @@ block admincontent
                     each file, ind in files
                         .radio
                             label
-                                input(type="radio" name="backgroundImage" value=file) 
+                                input(type="radio" name="backgroundImage" value=file  checked=content.backgroundImage == file) 
                                 img(src="/bg/"+file width=150)
 
             tr 
