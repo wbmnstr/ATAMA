@@ -1,6 +1,6 @@
 extends ../administrationpage.pug
 block admincontent
-    center 
-        img(src="sample.jpg" width=500)
-    p yandaki menüden sorgu ve sorgu sonucu ekranınızın 
-        | tasarımını adım adım oluşturabilirsiniz.
+    div(style="display:flex; flex-direction:column; height:100%")
+        h3 Alttaki önizleme sadece sistemin yayınlandığı bilgisayar üzerinde görüntülenebilir.
+        font(color="red" size="+2") ÖNİZLEME
+        iframe#preview(src="http://localhost:5000/" width="100%" height="100%")

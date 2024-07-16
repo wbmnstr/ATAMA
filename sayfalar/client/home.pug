@@ -3,7 +3,7 @@ block clientcontent
     div(style=`font-size:${content.fontsize}`)
         header
             center
-                img(src=content.logo width=250)
+                img(src="/logo/"+content.logo width=150)
             h1(align="center")=content.mainhead
             p(align="center")!=content.subhead
         form(method="post")

@@ -9,21 +9,33 @@ exports.get_adminhome = (req, res) => {
 
 /***SORGU EKRANI********************************************************* */
 exports.get_sorguekrani = (req, res) => {
-    fs.readdir('public/bg', {}, (err, files) => {
-        if (err) throw err;
-        res.render('admin/sorguekrani.pug', { active: "sorguekrani", content, files });
+    fs.readdir('public/bg', {}, (err, bgfiles) => {
+        if (err) {
+            res.render('admin/hata.pug',{error:err});   
+        }else{
+            fs.readdir('public/logo', {}, (err, logofiles) => {
+                if (err){
+                    res.render('admin/hata.pug',{error:err});                
+                } else{
+                    res.render('admin/sorguekrani.pug', { active: "sorguekrani", content, bgfiles, logofiles });
+                }
+            })
+        }
     })
 }
-exports.post_sorguekrani = (req, res) => {
-    fs.writeFile('data/sorguekrani.json', JSON.stringify(req.body), (err) => {
-        if (err) {
-            throw err;
-        } else {
-            console.log(req.file, req.body);
-            console.log('Dosya yazıldı');
-            res.redirect('/administrationpage/sorguekrani?msg=ok');
-        }
-    });
+exports.post_sorguekrani = async (req, res) => {
+    try {
+        await fs.writeFile('./data/sorguekrani.json', JSON.stringify(req.body), (err) => {
+            if (err) {
+                res.render('admin/hata.pug',{error:err});
+            } else {
+                console.log('Sorguekranı veri dosyası kaydedildi.');
+                res.redirect('/administrationpage');
+            }
+        });
+    } catch (err) {
+        res.render('admin/hata.pug',{error:err});
+    }
 }
 /*********************************************************************** */
 
@@ -33,8 +45,11 @@ exports.get_sonucekrani = (req, res) => {
 
 exports.get_logo = (req, res) => {
     fs.readdir('public/logo', {}, (err, files) => {
-        if (err) throw err;
-        res.render('admin/logo.pug', { active: "logo", content, files });
+        if (err) {
+            res.render('admin/hata.pug',{error:err});
+        } else {
+            res.render('admin/logo.pug', { active: "logo", content, files });
+        }
     })
 }
 exports.post_logo = (req, res) => {
@@ -69,16 +84,20 @@ exports.post_logo = (req, res) => {
 
     upload(req, res, (err) => {
         if (err) {
-            return res.send(err.message);
+            res.render('admin/hata.pug',{error:err});
+        }else{
+            res.redirect("/administrationpage/logo");
         }
-        res.redirect("/administrationpage/logo");
     })
 }
 
 exports.get_arkaplan = (req, res) => {
     fs.readdir('public/bg', {}, (err, files) => {
-        if (err) throw err;
-        res.render('admin/arkaplan.pug', { active: "arkaplan", files });
+        if (err) {
+            res.render('admin/hata.pug',{error:err});
+        } else {
+            res.render('admin/arkaplan.pug', { active: "arkaplan", files });
+        }
     })
 }
 exports.post_arkaplan = (req, res) => {
@@ -114,9 +133,10 @@ exports.post_arkaplan = (req, res) => {
 
     upload(req, res, (err) => {
         if (err) {
-            return res.send(err.message);
+            res.render('admin/hata.pug',{error:err});
+        } else {
+            res.redirect("/administrationpage/arkaplan");
         }
-        res.redirect("/administrationpage/arkaplan");
     })
 
 }
