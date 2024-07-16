@@ -2,9 +2,37 @@ extends ../clientpage
 block clientcontent
     header 
         h1(align="center") Sorgu sonucu 
-    table
-        tr
-            td Atandığı birim 
-            td ...
+    
+    if foundPersonel === null 
+        p.warning(align="center") Sorgu Sonucu : Personel bulunamadı.
+    else 
+        table(border=1 cellspacing=0 cellpadding=5 align='center') 
+            tr 
+                td SİCİL 
+                td=foundPersonel.sicil
+            tr 
+                td İSİM 
+                td=foundPersonel.isim
+            tr 
+                td SOYİSİM 
+                td=foundPersonel.soyisim
+            tr 
+                td Geldiği Birim 
+                td=foundPersonel.geldigi_birim
+            tr 
+                td Atandığı Birim 
+                td=foundPersonel.atandigi_birim
+        br
+        p Çorum İl Emniyet Müdürlüğüne Hoşgeldiniz; huzurlu, mutlu bir çalıma hayatı geçirmeniz dileğiyle. 
+        ul 
+            li başlama yapmak için vesaire vesaire evraklarınızı gertiriniz.
+            li direk atandığınız birimde başlama yapınız.
+            li bir haftya mesaiden sonra makama görüşe çıkın 
+            li koruma şubeden giriş kartınızı alın.
+            li kanti alışveriş için sosyal hizmetlerden hesap oluşturun 
+            li Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum doloremque reprehenderit quia, soluta minus deserunt necessitatibus. Nemo illo laudantium sunt ut voluptate voluptatem earum blanditiis recusandae soluta laborum! Unde, earum?Ipsum molestias distinctio, ea nulla placeat molestiae quo sint corrupti ratione aspernatur reprehenderit quos aliquid soluta assumenda iusto facilis ad. Commodi eaque cum fugit recusandae in minima ipsa, repudiandae obcaecati?Qui corrupti odit doloribus! Optio placeat vero voluptatum, nam quaerat autem debitis quasi soluta voluptas praesentium architecto error voluptate libero enim sed dolore dolorem repellat magnam. Totam quod expedita inventore.
+            li Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, cumque! Maxime explicabo cupiditate, voluptatibus error corrupti fuga voluptas tempora doloremque est voluptatum minima quam perspiciatis, veniam quod illum quas nam?Aliquam similique modi nemo non officiis ipsa beatae voluptatum velit consequatur! Beatae, ullam. Corrupti exercitationem alias beatae at repudiandae incidunt blanditiis ex harum? Dolorem, optio corporis maiores ipsa sunt ex.
+            li Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo aliquid quod eos ipsum quo odit repellat, similique veritatis, autem voluptas pariatur totam dignissimos omnis! Voluptates aperiam possimus eligendi enim architecto?
+
     
     a.btn1(href="/") Yeni Sorgu

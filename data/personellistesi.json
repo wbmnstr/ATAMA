@@ -1,0 +1,138 @@
+[
+  {
+    "tc": 10361195944,
+    "sicil": 301231,
+    "isim": "fatih",
+    "soyisim": "sarıdağ",
+    "geldigi_birim": "sivas",
+    "atandigi_birim": "bt1"
+  },
+  {
+    "tc": 10365695944,
+    "sicil": 598231,
+    "isim": "Murat",
+    "soyisim": "teke",
+    "geldigi_birim": "konya",
+    "atandigi_birim": "bt2"
+  },
+  {
+    "tc": 10365599884,
+    "sicil": 309511,
+    "isim": "ahmet",
+    "soyisim": "kara",
+    "geldigi_birim": "izmir",
+    "atandigi_birim": "bt3"
+  },
+  {
+    "tc": 10368567864,
+    "sicil": 411271,
+    "isim": "fatih",
+    "soyisim": "kaya",
+    "geldigi_birim": "hakkari",
+    "atandigi_birim": "bt4"
+  },
+  {
+    "tc": 10370769834,
+    "sicil": 415411,
+    "isim": "Murat",
+    "soyisim": "mutlu",
+    "geldigi_birim": "çorum",
+    "atandigi_birim": "bt5"
+  },
+  {
+    "tc": 10372971804,
+    "sicil": 419551,
+    "isim": "ahmet",
+    "soyisim": "şen",
+    "geldigi_birim": "van",
+    "atandigi_birim": "bt6"
+  },
+  {
+    "tc": 10375173774,
+    "sicil": 423691,
+    "isim": "fatih",
+    "soyisim": "acar",
+    "geldigi_birim": "muş",
+    "atandigi_birim": "bt7"
+  },
+  {
+    "tc": 10377375744,
+    "sicil": 427831,
+    "isim": "Murat",
+    "soyisim": "tekin",
+    "geldigi_birim": "siirt",
+    "atandigi_birim": "bt8"
+  },
+  {
+    "tc": 10379577714,
+    "sicil": 431971,
+    "isim": "ahmet",
+    "soyisim": "sarı",
+    "geldigi_birim": "batman",
+    "atandigi_birim": "bt9"
+  },
+  {
+    "tc": 10381779684,
+    "sicil": 436111,
+    "isim": "fatih",
+    "soyisim": "teke",
+    "geldigi_birim": "erzurum",
+    "atandigi_birim": "bt10"
+  },
+  {
+    "tc": 10383981654,
+    "sicil": 440251,
+    "isim": "Murat",
+    "soyisim": "kara",
+    "geldigi_birim": "erzincan",
+    "atandigi_birim": "bt11"
+  },
+  {
+    "tc": 10386183624,
+    "sicil": 444391,
+    "isim": "ahmet",
+    "soyisim": "kaya",
+    "geldigi_birim": "izmit",
+    "atandigi_birim": "bt12"
+  },
+  {
+    "tc": 10388385594,
+    "sicil": 448531,
+    "isim": "fatih",
+    "soyisim": "mutlusoy",
+    "geldigi_birim": "bursa",
+    "atandigi_birim": "bt13"
+  },
+  {
+    "tc": 10390587564,
+    "sicil": 452671,
+    "isim": "Murat",
+    "soyisim": "şenel",
+    "geldigi_birim": "sinop",
+    "atandigi_birim": "bt14"
+  },
+  {
+    "tc": 10392789534,
+    "sicil": 456811,
+    "isim": "ahmet",
+    "soyisim": "acıdem",
+    "geldigi_birim": "ordu",
+    "atandigi_birim": "bt15"
+  },
+  {
+    "tc": 10394991504,
+    "sicil": 460951.000000001,
+    "isim": "fatih",
+    "soyisim": "tekirli",
+    "geldigi_birim": "rize",
+    "atandigi_birim": "bt16"
+  },
+  {
+    "tc": 10397193474,
+    "sicil": 465091,
+    "isim": "Murat",
+    "soyisim": "dağ",
+    "geldigi_birim": "ağrı",
+    "atandigi_birim": "bt17"
+  }
+]

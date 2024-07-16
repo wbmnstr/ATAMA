@@ -12,6 +12,7 @@ app.use(express.static('public'));
 
 const adminRoutes = require('./routes/adminrouter');
 const clientRoutes = require('./routes/clientrouter');
+
 app.use('/administrationpage', adminRoutes);
 app.use('/', clientRoutes);
 

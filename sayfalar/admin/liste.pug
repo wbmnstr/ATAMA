@@ -20,6 +20,23 @@ block admincontent
                         td Atandığı Birim
     
     form(action="/administrationpage/liste", method="post", enctype="multipart/form-data")  
-        input(type="file", name="liste", accept=".xlsx")
+        input(type="file", name="personellistesi", accept=".xlsx")
         br
         input(type="submit", value="LİSTEYİ GÖNDER")
+    br
+    br
+    if liste.length===0
+        p.warning SİSTEMDE YÜKLÜ BİR İSİM LİSTESİ BULUNAMADI.
+    else
+        h3 Yüklü Liste Önizlemesi
+        table(border=1 cellspacing=0 cellpadding=5)
+            tr
+                each key in Object.keys(liste[0])
+                    td=key
+            each obj in liste.slice(0,5)
+                tr 
+                    each item in obj
+                        td=item
+
+        
+    

@@ -156,3 +156,9 @@ form.imgupload{
     background-color: yellow;
     box-shadow: rgba(0,0,0,0.5) 0 0 20px;
 }
+.warning{
+    font-size: larger;
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 4px;
+}

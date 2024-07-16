@@ -2,6 +2,7 @@ const content = require('../data/sorguekrani.json');
 const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
+const xlsx = require('xlsx');
 
 exports.get_adminhome = (req, res) => {
     res.render('admin/adminhome.pug', { active: "home" });
@@ -11,12 +12,12 @@ exports.get_adminhome = (req, res) => {
 exports.get_sorguekrani = (req, res) => {
     fs.readdir('public/bg', {}, (err, bgfiles) => {
         if (err) {
-            res.render('admin/hata.pug',{error:err});   
-        }else{
+            res.render('admin/hata.pug', { error: err });
+        } else {
             fs.readdir('public/logo', {}, (err, logofiles) => {
-                if (err){
-                    res.render('admin/hata.pug',{error:err});                
-                } else{
+                if (err) {
+                    res.render('admin/hata.pug', { error: err });
+                } else {
                     res.render('admin/sorguekrani.pug', { active: "sorguekrani", content, bgfiles, logofiles });
                 }
             })
@@ -27,14 +28,14 @@ exports.post_sorguekrani = async (req, res) => {
     try {
         await fs.writeFile('./data/sorguekrani.json', JSON.stringify(req.body), (err) => {
             if (err) {
-                res.render('admin/hata.pug',{error:err});
+                res.render('admin/hata.pug', { error: err });
             } else {
                 console.log('Sorguekranı veri dosyası kaydedildi.');
                 res.redirect('/administrationpage');
             }
         });
     } catch (err) {
-        res.render('admin/hata.pug',{error:err});
+        res.render('admin/hata.pug', { error: err });
     }
 }
 /*********************************************************************** */
@@ -46,7 +47,7 @@ exports.get_sonucekrani = (req, res) => {
 exports.get_logo = (req, res) => {
     fs.readdir('public/logo', {}, (err, files) => {
         if (err) {
-            res.render('admin/hata.pug',{error:err});
+            res.render('admin/hata.pug', { error: err });
         } else {
             res.render('admin/logo.pug', { active: "logo", content, files });
         }
@@ -84,8 +85,8 @@ exports.post_logo = (req, res) => {
 
     upload(req, res, (err) => {
         if (err) {
-            res.render('admin/hata.pug',{error:err});
-        }else{
+            res.render('admin/hata.pug', { error: err });
+        } else {
             res.redirect("/administrationpage/logo");
         }
     })
@@ -94,7 +95,7 @@ exports.post_logo = (req, res) => {
 exports.get_arkaplan = (req, res) => {
     fs.readdir('public/bg', {}, (err, files) => {
         if (err) {
-            res.render('admin/hata.pug',{error:err});
+            res.render('admin/hata.pug', { error: err });
         } else {
             res.render('admin/arkaplan.pug', { active: "arkaplan", files });
         }
@@ -133,7 +134,7 @@ exports.post_arkaplan = (req, res) => {
 
     upload(req, res, (err) => {
         if (err) {
-            res.render('admin/hata.pug',{error:err});
+            res.render('admin/hata.pug', { error: err });
         } else {
             res.redirect("/administrationpage/arkaplan");
         }
@@ -141,9 +142,56 @@ exports.post_arkaplan = (req, res) => {
 
 }
 
+
+
+
+
 exports.get_liste = (req, res) => {
-    res.render('admin/liste.pug', { active: "liste" });
+    const filePath = 'data/personellistesi.json';
+    let liste = [];
+    console.log(filePath);
+
+    try {
+        if (fs.existsSync(filePath)) {
+            const data = fs.readFileSync(filePath, 'utf8');
+            liste = JSON.parse(data);
+        } else {
+            console.log('personellistesi.json dosyası bulunamadı veya okunamadı.');
+        }
+    } catch (err) {
+        res.render('admin/hata.pug', { error: err });        
+    }
+    
+    res.render('admin/liste.pug', { active: "liste", liste });
 }
+
+
+
+
 exports.post_liste = (req, res) => {
-    res.redirect("/administrationpage/liste");
+    const storage = multer.diskStorage({
+        destination: function (req, file, cb) {
+            cb(null, 'data/');
+        },
+        filename: function (req, file, cb) {
+            cb(null, 'personellistesi.xlsx');
+        }
+    })
+    const upload = multer({ storage }).single('personellistesi');
+    upload(req, res, (err) => {
+        if (err) {
+            res.render('admin/hata.pug', { error: err });
+        } else {
+            try {
+                const workbook = xlsx.readFile('data/personellistesi.xlsx');
+                const sheet_name_list = workbook.SheetNames;
+                const jsondata = xlsx.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
+                fs.writeFileSync('data/personellistesi.json', JSON.stringify(jsondata, null, 2));
+                console.log('dosya başarı ile yüklendi ve data dönüşümü tamamlandı.');
+                res.redirect("/administrationpage");
+            } catch (err) {
+                res.render('admin/hata.pug', { error: err });
+            }
+        }
+    })
 }
