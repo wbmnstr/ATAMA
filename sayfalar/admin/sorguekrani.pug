@@ -11,27 +11,6 @@ block admincontent
     form(action="/administrationpage/sorguekrani", method="post") 
         table(border=1 cellspacing=0 cellpadding="5") 
             tr 
-                td(width=200) Genel Yazı Boyutu 
-                td 
-                    label
-                        input(type="radio" name="fontsize" value="small" checked=content.fontsize == "small") 
-                        | Küçük
-                    label
-                        input(type="radio" name="fontsize" value="medium" checked=content.fontsize == "medium") 
-                        | Orta
-                    label
-                        input(type="radio" name="fontsize" value="large" checked=content.fontsize == "large") 
-                        | Büyük
-            tr 
-                td Yazı Rengi 
-                td 
-                    label
-                        input(type="radio" name="fontcolor" value="#f2f2f2" checked=content.fontcolor == "#f2f2f2") 
-                        | Açık
-                    label
-                        input(type="radio" name="fontcolor" value="#333333" checked=content.fontcolor == "#333333") 
-                        | Koyu
-            tr 
                 td Ana Başlık 
                 td 
                     input(type="text" name="mainhead" value=content.mainhead)
@@ -52,48 +31,84 @@ block admincontent
                 td 
                     input(type="text" name="submitlabel" value=content.submitlabel)
             tr 
+                td(width=200) Yazı Boyutu 
+                td 
+                    .radiogroup
+                        label
+                            input(type="radio" name="fontsize" value="small" checked=content.fontsize == "small") 
+                            | Küçük
+                        label
+                            input(type="radio" name="fontsize" value="medium" checked=content.fontsize == "medium") 
+                            | Orta
+                        label
+                            input(type="radio" name="fontsize" value="large" checked=content.fontsize == "large") 
+                            | Büyük
+            tr 
+                td Form Teması 
+                td 
+                    .radiogroup
+                        label
+                            input(type="radio" name="formtema" value="light" checked=content.formtema == "light") 
+                            | Beyaz
+                        label
+                            input(type="radio" name="formtema" value="dark" checked=content.formtema == "dark") 
+                            | Siyah
+                        label
+                            input(type="radio" name="formtema" value="red" checked=content.formtema == "red") 
+                            | Kırmızı
+                        label
+                            input(type="radio" name="formtema" value="blue" checked=content.formtema == "blue") 
+                            | Mavi
+            tr
+                td Arkaplan Döşeme Stili : 
+                td
+                    .radiogroup
+                        label
+                            input(type="radio" name="backgroundSize" value="cover" checked=content.backgroundSize == "cover")
+                            span Enlemesine
+                        label
+                            input(type="radio" name="backgroundSize" value="contain" checked=content.backgroundSize == "contain")
+                            span Boylamasına
+                        label
+                            input(type="radio" name="backgroundSize" value="auto" checked=content.backgroundSize == "auto")
+                            span Gerçek boyut
+
+            tr 
+                td Arkaplan Konumu : 
+                td
+                    .radiogroup
+                        label
+                            input(type="radio" name="backgroundPosition" value="center" checked=content.backgroundPosition == "center")
+                            | Orta
+                        label
+                            input(type="radio" name="backgroundPosition" value="top" checked=content.backgroundPosition == "top")
+                            | Üst
+                        label
+                            input(type="radio" name="backgroundPosition" value="left" checked=content.backgroundPosition == "left")
+                            | Sol
+                        label
+                            input(type="radio" name="backgroundPosition" value="right" checked=content.backgroundPosition == "right")
+                            | Sağ
+                        label
+                            input(type="radio" name="backgroundPosition" value="bottom" checked=content.backgroundPosition == "bottom")
+                            | Alt
+            tr 
                 td Form için Gölge Efekti 
                 td 
                     label
                         input(type="checkbox" name="shadow" checked=content.shadow == 'on')
             tr 
-                td Arkaplan Döşeme Stili : 
-                td
+                td Arkaplan karartma
+                td 
                     label
-                        input(type="radio" name="backgroundSize" value="cover" checked=content.backgroundSize == "cover")
-                        span Enlemesine
-                    label
-                        input(type="radio" name="backgroundSize" value="contain" checked=content.backgroundSize == "contain")
-                        span Boylamasına
-                    label
-                        input(type="radio" name="backgroundSize" value="auto" checked=content.backgroundSize == "auto")
-                        span Gerçek boyut
-
-            tr 
-                td Arkaplan Konumu : 
-                td
-                    label
-                        input(type="radio" name="backgroundPosition" value="center" checked=content.backgroundPosition == "center")
-                        | Orta
-                    label
-                        input(type="radio" name="backgroundPosition" value="top" checked=content.backgroundPosition == "top")
-                        | Üst
-                    label
-                        input(type="radio" name="backgroundPosition" value="left" checked=content.backgroundPosition == "left")
-                        | Sol
-                    label
-                        input(type="radio" name="backgroundPosition" value="right" checked=content.backgroundPosition == "right")
-                        | Sağ
-                    label
-                        input(type="radio" name="backgroundPosition" value="bottom" checked=content.backgroundPosition == "bottom")
-                        | Alt
+                        input(type="checkbox" name="karartma" checked=content.karartma == 'on')
             tr
                 td Arkaplan Resmi : 
                 td  
                     .imgradio
                         each file, ind in bgfiles
                             label
-                                input(type="radio" name="backgroundImage" value=file  checked=content.backgroundImage == file) 
+                                input(type="radio" name="backgroundImage" width=100 value=file  checked=content.backgroundImage == file) 
                                 img(src="/bg/"+file )
             tr
                 td Arkaplan Resmi : 
@@ -103,11 +118,6 @@ block admincontent
                             label
                                 input(type="radio" name="logo" value=file  checked=content.logo == file) 
                                 img(src="/logo/"+file )
-            tr 
-                td Arkaplan resmi karartması uygulansın mı
-                td 
-                    label
-                        input(type="checkbox" name="karartma" checked=content.karartma == 'on')
             tr 
                 td 
                 td 

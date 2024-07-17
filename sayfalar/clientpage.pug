@@ -6,6 +6,6 @@ html(lang="en" style=`background-image:url(bg/${content.backgroundImage});backgr
         link(rel="stylesheet", href="stil.css")
         title ATAMA SORGU
     body(style=content.karartma=='on' && "background-image:radial-gradient(rgba(0, 0, 0, 0.3) 60%,  rgb(0, 0, 0))")
-        .container(style=`box-shadow:${content.shadow=='on' && 'rgba(0,0,0,0.7) 0 0 20px'}; color:${content.fontcolor}`)
+        div(style=`box-shadow:${content.shadow=='on' && 'rgba(0,0,0,0.7) 0 0 20px'}`, class=`container ${content.formtema}`)
             block clientcontent
 

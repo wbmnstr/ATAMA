@@ -1,138 +1,1302 @@
 [
   {
-    "tc": 10361195944,
-    "sicil": 301231,
-    "isim": "fatih",
-    "soyisim": "sarıdağ",
-    "geldigi_birim": "sivas",
-    "atandigi_birim": "bt1"
+    "tc": 63313341284,
+    "sicil": 279385,
+    "rütbe": "Komiser",
+    "isim": "OSMAN",
+    "soyisim": "DAĞHAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Ağrı Emniyet Müdürlüğü / Göçmen Kaçakçılığıyla Mücadele ve Hudut Kapıları Şube Müdürlüğü",
+    "atandığı birim": "KORUMA ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10365695944,
-    "sicil": 598231,
-    "isim": "Murat",
-    "soyisim": "teke",
-    "geldigi_birim": "konya",
-    "atandigi_birim": "bt2"
+    "tc": 29680830264,
+    "sicil": 281543,
+    "rütbe": "Komiser",
+    "isim": "FATİH",
+    "soyisim": "ÇİNPOLAT",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır-Ergani İlçe Emniyet Müdürlüğü / Trafik Tescil Büro Amirliği",
+    "atandığı birim": "ÇOCUK ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10365599884,
-    "sicil": 309511,
-    "isim": "ahmet",
-    "soyisim": "kara",
-    "geldigi_birim": "izmir",
-    "atandigi_birim": "bt3"
+    "tc": 19180329788,
+    "sicil": 320277,
+    "rütbe": "Komiser",
+    "isim": "FATİH KÜRŞAT",
+    "soyisim": "GÜNEY",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Ağrı Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Ekipler Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10368567864,
-    "sicil": 411271,
-    "isim": "fatih",
-    "soyisim": "kaya",
-    "geldigi_birim": "hakkari",
-    "atandigi_birim": "bt4"
+    "tc": 10969628528,
+    "sicil": 407119,
+    "rütbe": "Komiser",
+    "isim": "SEMİH",
+    "soyisim": "KAVAK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Tunceli Emniyet Müdürlüğü / Güvenlik Şube Müdürlüğü / İdari Büro Amirliği",
+    "atandığı birim": "GÜVENLİK ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10370769834,
-    "sicil": 415411,
-    "isim": "Murat",
-    "soyisim": "mutlu",
-    "geldigi_birim": "çorum",
-    "atandigi_birim": "bt5"
+    "tc": 22342240098,
+    "sicil": 430532,
+    "rütbe": "Komiser",
+    "isim": "UĞUR",
+    "soyisim": "KAYA",
+    "branş": "Branşı : Lojistik\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Viranşehir İlçe Emniyet Müdürlüğü / Destek Hizmetleri Büro Amirliği",
+    "atandığı birim": "STRATEJİ GELİŞTİRME ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10372971804,
-    "sicil": 419551,
-    "isim": "ahmet",
-    "soyisim": "şen",
-    "geldigi_birim": "van",
-    "atandigi_birim": "bt6"
+    "tc": 24178179290,
+    "sicil": 400877,
+    "rütbe": "Polis Memuru",
+    "isim": "BİRİCİK DERYA",
+    "soyisim": "KAYA",
+    "branş": "Branşı : Olay Yeri İnceleme ve Kimlik T\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Viranşehir İlçe Emniyet Müdürlüğü / Olay Yeri İnceleme Grup Amirliği",
+    "atandığı birim": "OLAY YERİ İNCELEME ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10375173774,
-    "sicil": 423691,
-    "isim": "fatih",
-    "soyisim": "acar",
-    "geldigi_birim": "muş",
-    "atandigi_birim": "bt7"
+    "tc": 20834345290,
+    "sicil": 485728,
+    "rütbe": "Komiser",
+    "isim": "REYHAN",
+    "soyisim": "KARABAĞIRLI",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır-Yenişehir İlçe Emniyet Müdürlüğü / Aile İçi ve Kadına Karşı Şiddetle Mücadele Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10377375744,
-    "sicil": 427831,
-    "isim": "Murat",
-    "soyisim": "tekin",
-    "geldigi_birim": "siirt",
-    "atandigi_birim": "bt8"
+    "tc": 71116081184,
+    "sicil": 176791,
+    "rütbe": "Komiser Yardımcısı",
+    "isim": "BEKİR",
+    "soyisim": "YANIK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bitlis-Tatvan İlçe Emniyet Müdürlüğü / Destek Hizmetleri Büro Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
   },
   {
-    "tc": 10379577714,
-    "sicil": 431971,
-    "isim": "ahmet",
-    "soyisim": "sarı",
-    "geldigi_birim": "batman",
-    "atandigi_birim": "bt9"
+    "tc": 14039977516,
+    "sicil": 193091,
+    "rütbe": "Polis Memuru",
+    "isim": "SEYİT",
+    "soyisim": "GÜNGÖR",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Trafik Tescil ve Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "ALACA İLÇE EMNİYET MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10381779684,
-    "sicil": 436111,
-    "isim": "fatih",
-    "soyisim": "teke",
-    "geldigi_birim": "erzurum",
-    "atandigi_birim": "bt10"
+    "tc": 15419952208,
+    "sicil": 193147,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSTAFA",
+    "soyisim": "ÇÖMEZ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Van Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Hırsızlık ve Yankesicilik Büro Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10383981654,
-    "sicil": 440251,
-    "isim": "Murat",
-    "soyisim": "kara",
-    "geldigi_birim": "erzincan",
-    "atandigi_birim": "bt11"
+    "tc": 12310178980,
+    "sicil": 210856,
+    "rütbe": "Polis Memuru",
+    "isim": "NAZMİYE",
+    "soyisim": "ÖZTÜRK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Ceylanpınar İlçe Emniyet Müdürlüğü / Destek Hizmetleri Büro Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10386183624,
-    "sicil": 444391,
-    "isim": "ahmet",
-    "soyisim": "kaya",
-    "geldigi_birim": "izmit",
-    "atandigi_birim": "bt12"
+    "tc": 45433252794,
+    "sicil": 211324,
+    "rütbe": "Polis Memuru",
+    "isim": "HAŞİM",
+    "soyisim": "ÇAĞLAR",
+    "branş": "Branşı : Narkotik\r\nYan Branşı : -",
+    "geldiği kadro": "Samsun Emniyet Müdürlüğü / Narkotik Suçlarla Mücadele Şube Müdürlüğü / Güvenlik ve Nezarethane Büro Amirliği",
+    "atandığı birim": "NARKOTİK SUÇLARLA MÜCADELE ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10388385594,
-    "sicil": 448531,
-    "isim": "fatih",
-    "soyisim": "mutlusoy",
-    "geldigi_birim": "bursa",
-    "atandigi_birim": "bt13"
+    "tc": 62566369632,
+    "sicil": 218826,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSTAFA",
+    "soyisim": "ALTAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Iğdır-Aralık İlçe Emniyet Müdürlüğü / Aralık Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "ALACA İLÇE EMNİYET MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10390587564,
-    "sicil": 452671,
-    "isim": "Murat",
-    "soyisim": "şenel",
-    "geldigi_birim": "sinop",
-    "atandigi_birim": "bt14"
+    "tc": 19435337780,
+    "sicil": 231295,
+    "rütbe": "Polis Memuru",
+    "isim": "ÖMER",
+    "soyisim": "ŞAHİN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Artvin-Ardanuç İlçe Emniyet Amirliği / Ardanuç Polis Merkezi Amirliği / Adli İşlemler Büro Amirliği",
+    "atandığı birim": "UĞURLUDAĞ İLÇE EMNİYET AMİRLİĞİ"
   },
   {
-    "tc": 10392789534,
-    "sicil": 456811,
-    "isim": "ahmet",
-    "soyisim": "acıdem",
-    "geldigi_birim": "ordu",
-    "atandigi_birim": "bt15"
+    "tc": 29629006408,
+    "sicil": 237449,
+    "rütbe": "Polis Memuru",
+    "isim": "HALİL",
+    "soyisim": "APAYDIN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şırnak Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "KORUMA ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10394991504,
-    "sicil": 460951.000000001,
-    "isim": "fatih",
-    "soyisim": "tekirli",
-    "geldigi_birim": "rize",
-    "atandigi_birim": "bt16"
+    "tc": 20548713460,
+    "sicil": 243424,
+    "rütbe": "Polis Memuru",
+    "isim": "MURAT",
+    "soyisim": "BEZGİN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Elazığ Emniyet Müdürlüğü / Çarşı Şehit Mehmet Ali Çakır Polis Merkezi Amirliği / İdari Büro Amirliği",
+    "atandığı birim": "KORUMA ŞUBE MÜDÜRLÜĞÜ"
   },
   {
-    "tc": 10397193474,
-    "sicil": 465091,
-    "isim": "Murat",
-    "soyisim": "dağ",
-    "geldigi_birim": "ağrı",
-    "atandigi_birim": "bt17"
+    "tc": 10866082720,
+    "sicil": 244788,
+    "rütbe": "Polis Memuru",
+    "isim": "ALPASLAN",
+    "soyisim": "DOĞANGÖNÜL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şırnak-Uludere İlçe Emniyet Amirliği / Çevik Kuvvet Grup Amirliği",
+    "atandığı birim": "ALACA İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 42085714786,
+    "sicil": 247013,
+    "rütbe": "Polis Memuru",
+    "isim": "SERKAN",
+    "soyisim": "AKTAŞ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bingöl Emniyet Müdürlüğü / Yenişehir Şehit Hayrullah Polat Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "İSKİLİP İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 18773691844,
+    "sicil": 248206,
+    "rütbe": "Polis Memuru",
+    "isim": "FARUK",
+    "soyisim": "KAYAN",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Batman-Beşiri İlçe Emniyet Amirliği / Trafik Denetleme Büro Amirliği",
+    "atandığı birim": "TRAFİK DENETLEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 16195443744,
+    "sicil": 252832,
+    "rütbe": "Polis Memuru",
+    "isim": "HAKAN",
+    "soyisim": "KARADEMİR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bingöl Emniyet Müdürlüğü / Yenişehir Şehit Hayrullah Polat Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 20156044710,
+    "sicil": 257534,
+    "rütbe": "Polis Memuru",
+    "isim": "HASAN",
+    "soyisim": "BİÇKİN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şırnak-Cizre İlçe Emniyet Müdürlüğü / Devriye Ekipler Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 14725474510,
+    "sicil": 263283,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSTAFA",
+    "soyisim": "ARDUÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Hakkari-Yüksekova İlçe Emniyet Müdürlüğü / Koruma Büro Amirliği",
+    "atandığı birim": "ORTAKÖY İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 30163763290,
+    "sicil": 265653,
+    "rütbe": "Polis Memuru",
+    "isim": "AHMET",
+    "soyisim": "İLHAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Ardahan Emniyet Müdürlüğü / Ardahan Şehit Tuncay Polat Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 39344067028,
+    "sicil": 267936,
+    "rütbe": "Polis Memuru",
+    "isim": "DURSUN",
+    "soyisim": "KILIÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Narkotik Suçlarla Mücadele Şube Müdürlüğü / Sokak Suçlarıyla Mücadele ve Narkotim Büro Amirliği",
+    "atandığı birim": "NARKOTİK SUÇLARLA MÜCADELE ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 50101678660,
+    "sicil": 270659,
+    "rütbe": "Polis Memuru",
+    "isim": "BEDİR",
+    "soyisim": "ATALAY",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır-Sur İlçe Emniyet Müdürlüğü / Devriye Ekipler Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 34639642232,
+    "sicil": 285409,
+    "rütbe": "Polis Memuru",
+    "isim": "DENİZ",
+    "soyisim": "ATALAY",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Göçmen Kaçakçılığıyla Mücadele ve Hudut Kapıları Şube Müdürlüğü / Hudut Kapıları Büro Amirliği",
+    "atandığı birim": "GÖÇ. KAÇ. İLE MÜC. VE HUDUT KAP. ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 25283444068,
+    "sicil": 284193,
+    "rütbe": "Polis Memuru",
+    "isim": "OSMAN",
+    "soyisim": "KIRCI",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Erzincan Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Ekipler Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 13835337036,
+    "sicil": 292048,
+    "rütbe": "Polis Memuru",
+    "isim": "ADEM",
+    "soyisim": "KOÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Iğdır Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "İSKİLİP İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 55243508158,
+    "sicil": 295513,
+    "rütbe": "Polis Memuru",
+    "isim": "CUMA",
+    "soyisim": "AŞÇI",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bingöl Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Hırsızlık ve Yankesicilik Büro Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 43369592168,
+    "sicil": 297018,
+    "rütbe": "Polis Memuru",
+    "isim": "GÖKHAN",
+    "soyisim": "DEMİRHAN",
+    "branş": "Branşı : Kaçakçılık ve Organize Suç.M.\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Kaçakçılık ve Organize Suçlarla Mücadele Şube Müdürlüğü / Organize Suçlar Büro Amirliği",
+    "atandığı birim": "KAÇ. VE ORG. SUÇ. MÜC. ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 24118163938,
+    "sicil": 298005,
+    "rütbe": "Polis Memuru",
+    "isim": "EMRAH",
+    "soyisim": "ÇAKMAK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Tunceli Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Teknik Takip ve İzleme Büro Amirliği",
+    "atandığı birim": "LAÇİN İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 15359692820,
+    "sicil": 299063,
+    "rütbe": "Polis Memuru",
+    "isim": "METİN",
+    "soyisim": "EKİCİ",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Muş Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "OSMANCIK BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 10973746096,
+    "sicil": 299496,
+    "rütbe": "Polis Memuru",
+    "isim": "ÖMERÜL FARUK",
+    "soyisim": "ÖZCAN",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Trafik Tescil ve Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "SUNGURLU BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 12478394222,
+    "sicil": 299806,
+    "rütbe": "Polis Memuru",
+    "isim": "ZÜBEYİR",
+    "soyisim": "ÇELİK",
+    "branş": "Branşı : Terörle Mücadele\r\nYan Branşı : -",
+    "geldiği kadro": "Mardin Emniyet Müdürlüğü / Terörle Mücadele Şube Müdürlüğü / N Büro Amirliği",
+    "atandığı birim": "TERÖRLE MÜCADELE ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 10805805670,
+    "sicil": 301508,
+    "rütbe": "Polis Memuru",
+    "isim": "NUH",
+    "soyisim": "DÜĞEROĞLU",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Hassas Bölgeleri Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 70606097780,
+    "sicil": 307336,
+    "rütbe": "Polis Memuru",
+    "isim": "CABBAR",
+    "soyisim": "BAŞAR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "İstanbul-Pendik İlçe Emniyet Müdürlüğü / Çocuk Büro Amirliği",
+    "atandığı birim": "İSKİLİP İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 34840588640,
+    "sicil": 309534,
+    "rütbe": "Polis Memuru",
+    "isim": "FERHAT",
+    "soyisim": "KARABACAK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bingöl Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "OSMANCIK İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 27028475702,
+    "sicil": 313854,
+    "rütbe": "Polis Memuru",
+    "isim": "BURAK",
+    "soyisim": "HAYDAR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Yozgat-Sorgun İlçe Emniyet Müdürlüğü / Sorgun Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "BAYAT İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 16390452022,
+    "sicil": 314179,
+    "rütbe": "Polis Memuru",
+    "isim": "HÜSEYİN",
+    "soyisim": "YILMAZ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Iğdır-Karakoyunlu İlçe Emniyet Amirliği / Karakoyunlu Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "ÇARŞI POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 24071013042,
+    "sicil": 314982,
+    "rütbe": "Polis Memuru",
+    "isim": "SEMİH",
+    "soyisim": "AĞIRMAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Kastamonu Emniyet Müdürlüğü / Güvenlik Şube Müdürlüğü / Güvenlik Soruşturma ve Arşiv Araştırma Büro Amirliği",
+    "atandığı birim": "OSMANCIK İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 48694707904,
+    "sicil": 316624,
+    "rütbe": "Polis Memuru",
+    "isim": "ARİF TUNA",
+    "soyisim": "ASLAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Ordu-Gülyalı İlçe Emniyet Amirliği / Gülyalı Polis Merkezi Amirliği / Grup Amirliği\r\n\r\n(Kaymakamlık Geçici Görevli)",
+    "atandığı birim": "ÇARŞI POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 20098980398,
+    "sicil": 316964,
+    "rütbe": "Polis Memuru",
+    "isim": "HATUN",
+    "soyisim": "ASLAN",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Ordu-Gülyalı İlçe Emniyet Amirliği / Trafik Denetleme Büro Amirliği",
+    "atandığı birim": "BÖLGE TRAFİK DENETLEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 29494417224,
+    "sicil": 321099,
+    "rütbe": "Polis Memuru",
+    "isim": "YUSUF",
+    "soyisim": "ÖZTÜRK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Amasya Emniyet Müdürlüğü / Çocuk Şube Müdürlüğü / Adli İşlemler Büro Amirliği",
+    "atandığı birim": "ÇOCUK ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 16516819388,
+    "sicil": 321368,
+    "rütbe": "Polis Memuru",
+    "isim": "HARUN",
+    "soyisim": "DERVİŞ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Gümüşhane-Şiran İlçe Emniyet Müdürlüğü / Şiran Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "BİLGİ TEKNOLOJİLERİ VE HABERLEŞME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 41545976764,
+    "sicil": 322326,
+    "rütbe": "Polis Memuru",
+    "isim": "SAMET",
+    "soyisim": "ERDOĞAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bingöl Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "DODURGA İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 64432297704,
+    "sicil": 324527,
+    "rütbe": "Polis Memuru",
+    "isim": "MUHSİN CAN",
+    "soyisim": "ERDOĞAN",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "ALACA BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 34522158796,
+    "sicil": 336952,
+    "rütbe": "Polis Memuru",
+    "isim": "MUHAMMET ALİ",
+    "soyisim": "TEK",
+    "branş": "Branşı : Bomba Uzmanı\r\nYan Branşı : -",
+    "geldiği kadro": "Iğdır Emniyet Müdürlüğü / Olay Yeri İnceleme Şube Müdürlüğü / Bomba İmha ve İnceleme Büro Amirliği",
+    "atandığı birim": "OLAY YERİ İNCELEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 71419102128,
+    "sicil": 336956,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSTAFA",
+    "soyisim": "UÇAR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Akçakale İlçe Emniyet Müdürlüğü / Bilgi Teknolojileri ve Haberleşme Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 38869726694,
+    "sicil": 356556,
+    "rütbe": "Polis Memuru",
+    "isim": "SIDIKA",
+    "soyisim": "UÇAR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Akçakale İlçe Emniyet Müdürlüğü / Trafik Denetleme Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 33397546066,
+    "sicil": 341734,
+    "rütbe": "Polis Memuru",
+    "isim": "GÖKMEN",
+    "soyisim": "GÜRDAL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Batman Emniyet Müdürlüğü / Belge Yönetimi ve Koordinasyon Şube Müdürlüğü / Görev Planlama Büro Amirliği",
+    "atandığı birim": "BELGE YÖNETİMİ VE KOORDİNASYON ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 43801871530,
+    "sicil": 342911,
+    "rütbe": "Polis Memuru",
+    "isim": "HASAN",
+    "soyisim": "YILAR",
+    "branş": "Branşı : Lojistik\r\nYan Branşı : -",
+    "geldiği kadro": "Siirt Emniyet Müdürlüğü / Destek Hizmetleri Şube Müdürlüğü / Taşıt Bakım ve Onarım Büro Amirliği",
+    "atandığı birim": "MECİTÖZÜ İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 61789395794,
+    "sicil": 343162,
+    "rütbe": "Polis Memuru",
+    "isim": "DAVUT",
+    "soyisim": "ARSLAN",
+    "branş": "Branşı : Koruma\r\nYan Branşı : -",
+    "geldiği kadro": "Batman Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Devlet Büyüklerini Koruma Büro Amirliği",
+    "atandığı birim": "OĞUZLAR İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 45817875588,
+    "sicil": 348206,
+    "rütbe": "Polis Memuru",
+    "isim": "NAGİHAN",
+    "soyisim": "ÖZDEMİR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır-Kocaköy İlçe Emniyet Amirliği / Belgelendirme Büro Amirliği",
+    "atandığı birim": "İSKİLİP İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 39256708392,
+    "sicil": 351327,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSTAFA",
+    "soyisim": "ÖZER",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Trafik Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "SUNGURLU BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 68488172374,
+    "sicil": 356806,
+    "rütbe": "Polis Memuru",
+    "isim": "HASAN",
+    "soyisim": "ŞİMŞEK",
+    "branş": "Branşı : Narkotik\r\nYan Branşı : -",
+    "geldiği kadro": "Erzincan Emniyet Müdürlüğü / Narkotik Suçlarla Mücadele Şube Müdürlüğü / Teknik Takip, Analiz ve Değerlendirme Büro Amirliği",
+    "atandığı birim": "NARKOTİK SUÇLARLA MÜCADELE ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 46495712806,
+    "sicil": 357548,
+    "rütbe": "Polis Memuru",
+    "isim": "RESUL",
+    "soyisim": "ÜNGÖR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Ağrı Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / İdari Büro Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 44233970990,
+    "sicil": 357936,
+    "rütbe": "Polis Memuru",
+    "isim": "SAMED",
+    "soyisim": "SAVAŞ",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Iğdır Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "ALACA BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 26075252380,
+    "sicil": 358541,
+    "rütbe": "Polis Memuru",
+    "isim": "MEHMET",
+    "soyisim": "KILIÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şırnak-Cizre İlçe Emniyet Müdürlüğü / Koruma Büro Amirliği",
+    "atandığı birim": "ALACA İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 36733292184,
+    "sicil": 363261,
+    "rütbe": "Polis Memuru",
+    "isim": "ŞAHİN",
+    "soyisim": "KEKOZ",
+    "branş": "Branşı : Terörle Mücadele\r\nYan Branşı : -",
+    "geldiği kadro": "Tunceli Emniyet Müdürlüğü / Terörle Mücadele Şube Müdürlüğü / Ekipler Büro Amirliği",
+    "atandığı birim": "TERÖRLE MÜCADELE ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 21883268806,
+    "sicil": 363993,
+    "rütbe": "Polis Memuru",
+    "isim": "TUNCAY",
+    "soyisim": "AKKUŞ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Muş Emniyet Müdürlüğü / Belge Yönetimi ve Koordinasyon Şube Müdürlüğü / Belge Büro Amirliği",
+    "atandığı birim": "DODURGA İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 20306454420,
+    "sicil": 365832,
+    "rütbe": "Polis Memuru",
+    "isim": "ONUR",
+    "soyisim": "KARAKOÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Viranşehir İlçe Emniyet Müdürlüğü / Koruma Büro Amirliği",
+    "atandığı birim": "DODURGA İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 50770473474,
+    "sicil": 368515,
+    "rütbe": "Polis Memuru",
+    "isim": "VELİ",
+    "soyisim": "DOGAN",
+    "branş": "Branşı : Koruma\r\nYan Branşı : -",
+    "geldiği kadro": "Batman Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Devlet Büyüklerini Koruma Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 42533098666,
+    "sicil": 369457,
+    "rütbe": "Polis Memuru",
+    "isim": "MUHAMMET",
+    "soyisim": "AYDENİZ",
+    "branş": "Branşı : Terörle Mücadele\r\nYan Branşı : -",
+    "geldiği kadro": "Van Emniyet Müdürlüğü / Güvenlik Şube Müdürlüğü / Ekipler Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 58159226840,
+    "sicil": 374405,
+    "rütbe": "Polis Memuru",
+    "isim": "HALİS",
+    "soyisim": "KARTALMIŞ",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Erzurum Emniyet Müdürlüğü / Erzurum Havalimanı Şube Müdürlüğü / Trafik Denetleme Büro Amirliği",
+    "atandığı birim": "BÖLGE TRAFİK DENETLEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 49450779678,
+    "sicil": 374633,
+    "rütbe": "Polis Memuru",
+    "isim": "İBRAHİM HALİL",
+    "soyisim": "CAN",
+    "branş": "Branşı : Terörle Mücadele\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır-Yenişehir İlçe Emniyet Müdürlüğü / Güven Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "KARGI İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 14354849840,
+    "sicil": 374673,
+    "rütbe": "Polis Memuru",
+    "isim": "EMRAH",
+    "soyisim": "YOLAL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Siirt Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Ekipler Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 13200011592,
+    "sicil": 375471,
+    "rütbe": "Polis Memuru",
+    "isim": "MURAT",
+    "soyisim": "ÖCAL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "OSMANCIK BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 17863155242,
+    "sicil": 376424,
+    "rütbe": "Polis Memuru",
+    "isim": "MAHMUT",
+    "soyisim": "AYTEKİN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Van-Çatak İlçe Emniyet Amirliği / Çatak Şehit Selami Duğrul Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "ORTAKÖY İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 15355123106,
+    "sicil": 377316,
+    "rütbe": "Polis Memuru",
+    "isim": "MURAT",
+    "soyisim": "DURSUN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Siirt Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Ekipler Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 70855013098,
+    "sicil": 378511,
+    "rütbe": "Polis Memuru",
+    "isim": "GÖKHAN",
+    "soyisim": "MADEN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Erzincan-Refahiye İlçe Emniyet Müdürlüğü / Refahiye Şehit Kenan Sapancı Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "OSMANCIK İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 15548246612,
+    "sicil": 381123,
+    "rütbe": "Polis Memuru",
+    "isim": "YASİN",
+    "soyisim": "YURTOĞLU",
+    "branş": "Branşı : Terörle Mücadele\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Haliliye İlçe Emniyet Müdürlüğü / Devriye Ekipler Amirliği",
+    "atandığı birim": "DODURGA İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 12363033618,
+    "sicil": 384135,
+    "rütbe": "Polis Memuru",
+    "isim": "EMRE",
+    "soyisim": "ÇİÇEK",
+    "branş": "Branşı : Koruma\r\nYan Branşı : -",
+    "geldiği kadro": "Hakkari Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Devlet Büyüklerini Koruma Büro Amirliği",
+    "atandığı birim": "KORUMA ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 69208002186,
+    "sicil": 385093,
+    "rütbe": "Polis Memuru",
+    "isim": "YUSUF",
+    "soyisim": "ERSOY",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Mardin-Derik İlçe Emniyet Müdürlüğü / İdari İşler Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 66100157624,
+    "sicil": 387274,
+    "rütbe": "Polis Memuru",
+    "isim": "MEHMET",
+    "soyisim": "POLAT",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Bitlis Emniyet Müdürlüğü / Çevik Kuvvet Şube Müdürlüğü / Birlik Amirliği (1)",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 19915970056,
+    "sicil": 388394,
+    "rütbe": "Polis Memuru",
+    "isim": "TURHAN",
+    "soyisim": "ÇAKMAK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Şanlıurfa-Eyyübiye İlçe Emniyet Müdürlüğü / Devriye Ekipler Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 14581479346,
+    "sicil": 390416,
+    "rütbe": "Polis Memuru",
+    "isim": "ÇAĞATAY",
+    "soyisim": "ASİL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Batman-Kozluk İlçe Emniyet Müdürlüğü / Terörle Mücadele Büro Amirliği",
+    "atandığı birim": "TERÖRLE MÜCADELE ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 26524414840,
+    "sicil": 395051,
+    "rütbe": "Polis Memuru",
+    "isim": "FATİH",
+    "soyisim": "ÖZTÜRK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Elazığ Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Aranan Şahıslar Büro Amirliği",
+    "atandığı birim": "ÇARŞI POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 43090135948,
+    "sicil": 396042,
+    "rütbe": "Polis Memuru",
+    "isim": "UĞUR",
+    "soyisim": "KILIÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Van-İpekyolu İlçe Emniyet Müdürlüğü / Genel Bilgi Toplama Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 28447014190,
+    "sicil": 396119,
+    "rütbe": "Polis Memuru",
+    "isim": "ERDAL",
+    "soyisim": "BAYDAR",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Bitlis-Adilcevaz İlçe Emniyet Müdürlüğü / Trafik Tescil ve Denetleme Büro Amirliği",
+    "atandığı birim": "ALACA BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 17534860734,
+    "sicil": 396403,
+    "rütbe": "Polis Memuru",
+    "isim": "YUSUF",
+    "soyisim": "AYKAÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Siirt Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "DODURGA İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 47056596484,
+    "sicil": 396615,
+    "rütbe": "Polis Memuru",
+    "isim": "HALİL İBRAHİM",
+    "soyisim": "ERDEMİR",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Trafik Tescil ve Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "TRAFİK DENETLEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 30940774396,
+    "sicil": 397205,
+    "rütbe": "Polis Memuru",
+    "isim": "ADEM",
+    "soyisim": "GÜLER",
+    "branş": "Branşı : Terörle Mücadele\r\nYan Branşı : -",
+    "geldiği kadro": "Batman Emniyet Müdürlüğü / Terörle Mücadele Şube Müdürlüğü / Ekipler Büro Amirliği",
+    "atandığı birim": "ALACA İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 15473798712,
+    "sicil": 399039,
+    "rütbe": "Polis Memuru",
+    "isim": "ORHAN",
+    "soyisim": "KÖKSAL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet-28.12.2016",
+    "geldiği kadro": "Şırnak-Cizre İlçe Emniyet Müdürlüğü / Çevik Kuvvet Grup Amirliği",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 13510518712,
+    "sicil": 399172,
+    "rütbe": "Polis Memuru",
+    "isim": "BİLAL",
+    "soyisim": "DOLUEL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Batman Emniyet Müdürlüğü / Çevik Kuvvet Şube Müdürlüğü / Birlik Amirliği (1)",
+    "atandığı birim": "OSMANCIK İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 53899513182,
+    "sicil": 409540,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSTAFA",
+    "soyisim": "KAYA",
+    "branş": "Branşı : Olay Yeri İnceleme ve Kimlik T\r\nYan Branşı : -",
+    "geldiği kadro": "Artvin-Hopa İlçe Emniyet Müdürlüğü / Güvenlik Büro Amirliği",
+    "atandığı birim": "OLAY YERİ İNCELEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 12779095392,
+    "sicil": 411235,
+    "rütbe": "Polis Memuru",
+    "isim": "BURAK",
+    "soyisim": "USLU",
+    "branş": "Branşı : Lojistik\r\nYan Branşı : -",
+    "geldiği kadro": "Siirt-Şirvan İlçe Emniyet Amirliği / Destek Hizmetleri Büro Amirliği",
+    "atandığı birim": "DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 10846633034,
+    "sicil": 411673,
+    "rütbe": "Polis Memuru",
+    "isim": "HAKAN",
+    "soyisim": "ÜSTÜN",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Trafik Düzenleme ve Denetleme Büro Amirliği",
+    "atandığı birim": "OSMANCIK BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 39334054472,
+    "sicil": 411973,
+    "rütbe": "Polis Memuru",
+    "isim": "NURETTİN",
+    "soyisim": "YAĞLI",
+    "branş": "Branşı : Koruma\r\nYan Branşı : -",
+    "geldiği kadro": "Tunceli Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 43049016434,
+    "sicil": 413183,
+    "rütbe": "Polis Memuru",
+    "isim": "OLCAY",
+    "soyisim": "ÖCAL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Hakkari Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "DODURGA İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 19931372612,
+    "sicil": 413660,
+    "rütbe": "Polis Memuru",
+    "isim": "ARAFA",
+    "soyisim": "ÖZDEMİR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Bingöl Emniyet Müdürlüğü / Çevik Kuvvet Şube Müdürlüğü / Ulaştırma Büro Amirliği",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 50296644556,
+    "sicil": 419512,
+    "rütbe": "Polis Memuru",
+    "isim": "ALİ ÖZKAN",
+    "soyisim": "ÖZTAŞ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet-15.05.2017",
+    "geldiği kadro": "Şırnak Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "KARGI İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 47482236770,
+    "sicil": 419655,
+    "rütbe": "Polis Memuru",
+    "isim": "İHSAN",
+    "soyisim": "ÖZEN",
+    "branş": "Branşı : \r\nYan Branşı : ",
+    "geldiği kadro": "Bingöl-Karlıova İlçe Emniyet Müdürlüğü / Çevik Kuvvet Grup Amirliği",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 71440054106,
+    "sicil": 420999,
+    "rütbe": "Polis Memuru",
+    "isim": "FARUK",
+    "soyisim": "BAYRAM",
+    "branş": "Branşı : Olay Yeri İnceleme ve Kimlik T\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Olay Yeri İnceleme Şube Müdürlüğü / Olay Yeri İnceleme Büro Amirliği",
+    "atandığı birim": "OLAY YERİ İNCELEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 46630773792,
+    "sicil": 421279,
+    "rütbe": "Polis Memuru",
+    "isim": "MÜRSEL",
+    "soyisim": "YÜKSEL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Şırnak-Cizre İlçe Emniyet Müdürlüğü / Çevik Kuvvet Grup Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 38893258208,
+    "sicil": 423269,
+    "rütbe": "Polis Memuru",
+    "isim": "AZİZ",
+    "soyisim": "GÜNEŞ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Şırnak-Cizre İlçe Emniyet Müdürlüğü / Koruma Büro Amirliği",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 21391262310,
+    "sicil": 423693,
+    "rütbe": "Polis Memuru",
+    "isim": "MERT",
+    "soyisim": "ALTUNEL",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet-15.05.2017",
+    "geldiği kadro": "Bingöl-Karlıova İlçe Emniyet Müdürlüğü / Çevik Kuvvet Grup Amirliği",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 42757894792,
+    "sicil": 424937,
+    "rütbe": "Polis Memuru",
+    "isim": "ERDİ",
+    "soyisim": "AKIN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Sivas Emniyet Müdürlüğü / Altıntabak Şehit Adem Tut Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "ÇARŞI POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 25043177076,
+    "sicil": 425902,
+    "rütbe": "Polis Memuru",
+    "isim": "MEVLÜT",
+    "soyisim": "EREN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet-15.05.2017",
+    "geldiği kadro": "Şırnak-Uludere İlçe Emniyet Amirliği / Çevik Kuvvet Grup Amirliği",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 18515833914,
+    "sicil": 426171,
+    "rütbe": "Polis Memuru",
+    "isim": "MURAT",
+    "soyisim": "BULUT",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bingöl Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "İSKİLİP İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 73393004504,
+    "sicil": 426382,
+    "rütbe": "Polis Memuru",
+    "isim": "AHMET",
+    "soyisim": "ŞİMŞEK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Şanlıurfa Emniyet Müdürlüğü / Çevik Kuvvet Şube Müdürlüğü / Birlik Amirliği (2)",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 46261273630,
+    "sicil": 428992,
+    "rütbe": "Polis Memuru",
+    "isim": "TUNCAY",
+    "soyisim": "ÇAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şırnak Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / İdari Büro Amirliği",
+    "atandığı birim": "KARGI İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 50647139038,
+    "sicil": 429614,
+    "rütbe": "Polis Memuru",
+    "isim": "ORHAN",
+    "soyisim": "YİĞİT",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet-23.08.2017",
+    "geldiği kadro": "Hakkari-Şemdinli İlçe Emniyet Müdürlüğü / Şemdinli Şehit Mustafa Darendelioğlu Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "ÇARŞI POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 52423583608,
+    "sicil": 432929,
+    "rütbe": "Polis Memuru",
+    "isim": "UĞUR",
+    "soyisim": "HANCI",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Ergani Bölge Trafik Denetleme İstasyon Amirliği",
+    "atandığı birim": "TRAFİK DENETLEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 16477416534,
+    "sicil": 433156,
+    "rütbe": "Polis Memuru",
+    "isim": "ADEM",
+    "soyisim": "GÖÇMEN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Çevik Kuvvet Şube Müdürlüğü / Birlik Amirliği (1)",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 35380190256,
+    "sicil": 433424,
+    "rütbe": "Polis Memuru",
+    "isim": "YALÇIN",
+    "soyisim": "DEMİRKIRAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa-Bozova İlçe Emniyet Müdürlüğü / Koruma Büro Amirliği",
+    "atandığı birim": "OĞUZLAR İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 10196210268,
+    "sicil": 434192,
+    "rütbe": "Polis Memuru",
+    "isim": "ADEM",
+    "soyisim": "VURGUN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : Çevik Kuvvet",
+    "geldiği kadro": "Diyarbakır-Ergani İlçe Emniyet Müdürlüğü / Güvenlik Büro Amirliği",
+    "atandığı birim": "ÇEVİK KUVVET ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 40597169742,
+    "sicil": 435161,
+    "rütbe": "Polis Memuru",
+    "isim": "OĞUZHAN",
+    "soyisim": "ASLAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır-Ergani İlçe Emniyet Müdürlüğü / Bilgi Teknolojileri ve Haberleşme Büro Amirliği",
+    "atandığı birim": "BİLGİ TEKNOLOJİLERİ VE HABERLEŞME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 57895554064,
+    "sicil": 435828,
+    "rütbe": "Polis Memuru",
+    "isim": "ÖZLEM",
+    "soyisim": "KÖPÜK",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Sivas-Kangal İlçe Emniyet Müdürlüğü / Kangal Polis Merkezi Amirliği / Aile İçi ve Kadına Karşı Şiddetle Mücadele Büro Amirliği",
+    "atandığı birim": "ASAYİŞ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 42812018354,
+    "sicil": 442798,
+    "rütbe": "Polis Memuru",
+    "isim": "YASİN",
+    "soyisim": "ÖZOĞLU",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Van-Gürpınar İlçe Emniyet Amirliği / Gürpınar Şehit Yaşar Uysal Polis Merkezi Amirliği / Adli İşlemler Büro Amirliği",
+    "atandığı birim": "İSKİLİP İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 48481839320,
+    "sicil": 500757,
+    "rütbe": "Polis Memuru",
+    "isim": "HÜLYA NUR",
+    "soyisim": "İNCİ ÖZOĞLU",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Van-Gürpınar İlçe Emniyet Amirliği / Belgelendirme Büro Amirliği",
+    "atandığı birim": "İSKİLİP İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 15329864042,
+    "sicil": 454528,
+    "rütbe": "Polis Memuru",
+    "isim": "UFUK",
+    "soyisim": "GÖKÇE",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Adıyaman Emniyet Müdürlüğü / Güvenlik Şube Müdürlüğü / Güvenlik Soruşturma ve Arşiv Araştırma Büro Amirliği",
+    "atandığı birim": "GÜVENLİK ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 36832173452,
+    "sicil": 460706,
+    "rütbe": "Polis Memuru",
+    "isim": "YUSUF",
+    "soyisim": "ÖZGÜR",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Özel Harekat Başkanlığı / Güvenlik Hizmetleri Şube Müdürlüğü / Koruma Grup Amirliği",
+    "atandığı birim": "ÇARŞI POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 41080826234,
+    "sicil": 461762,
+    "rütbe": "Polis Memuru",
+    "isim": "FATİH",
+    "soyisim": "İNCEKAYA",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Hatay Emniyet Müdürlüğü / Koruma Şube Müdürlüğü / Devlet Büyüklerini Koruma - Hassas Bölgeleri Koruma Büro Amirliği",
+    "atandığı birim": "DODURGA İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 20075129444,
+    "sicil": 465490,
+    "rütbe": "Polis Memuru",
+    "isim": "EMRE",
+    "soyisim": "ACET",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Bitlis Emniyet Müdürlüğü / Asayiş Şube Müdürlüğü / Ekipler Amirliği",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 48424873336,
+    "sicil": 465975,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSTAFA",
+    "soyisim": "KILIÇ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır Emniyet Müdürlüğü / Çevik Kuvvet Şube Müdürlüğü / İkmal ve Bütçe Büro Amirliği",
+    "atandığı birim": "ÇARŞI POLİS MERKEZİ AMİRLİĞİ"
+  },
+  {
+    "tc": 38501171950,
+    "sicil": 481447,
+    "rütbe": "Polis Memuru",
+    "isim": "MUSA",
+    "soyisim": "BALTACI",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Erzincan Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Refahiye Bölge Trafik Denetleme İstasyon Amirliği",
+    "atandığı birim": "OSMANCIK BÖLGE TRAFİK DENETLEME İSTASYON AMİRLİĞİ"
+  },
+  {
+    "tc": 21605600976,
+    "sicil": 495416,
+    "rütbe": "Polis Memuru",
+    "isim": "MURAT",
+    "soyisim": "YATKIN",
+    "branş": "Branşı : Trafik\r\nYan Branşı : -",
+    "geldiği kadro": "Tokat Emniyet Müdürlüğü / Bölge Trafik Denetleme Şube Müdürlüğü / Niksar Bölge Trafik Denetleme İstasyon Amirliği",
+    "atandığı birim": "TRAFİK DENETLEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 57550410018,
+    "sicil": 499093,
+    "rütbe": "Polis Memuru",
+    "isim": "FERDİ",
+    "soyisim": "UYLASI",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "İstanbul-Kadıköy İlçe Emniyet Müdürlüğü / Hasanpaşa Şehit Kadir Yıldırım Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "OSMANCIK İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 25210150444,
+    "sicil": 500707,
+    "rütbe": "Polis Memuru",
+    "isim": "ALİ CAN",
+    "soyisim": "YENER",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Şanlıurfa Emniyet Müdürlüğü / Narkotik Suçlarla Mücadele Şube Müdürlüğü / Sokak Suçlarıyla Mücadele ve Narkotim Büro Amirliği",
+    "atandığı birim": "NARKOTİK SUÇLARLA MÜCADELE ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 34745007932,
+    "sicil": 379634,
+    "rütbe": "Polis Memuru",
+    "isim": "ESRA",
+    "soyisim": "ÖZDOĞAN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : ",
+    "geldiği kadro": "Batman İl Emniyet Müdürlüğü",
+    "atandığı birim": "ORTAKÖY İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 43943022142,
+    "sicil": 181132,
+    "rütbe": "Polis Memuru",
+    "isim": "HÜSNÜ",
+    "soyisim": "TAŞ",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : -",
+    "geldiği kadro": "Ankara İl Emniyet Müdürlüğü",
+    "atandığı birim": "SUNGURLU İLÇE EMNİYET MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 24971621620,
+    "sicil": 308588,
+    "rütbe": "Polis Memuru",
+    "isim": "ERKAN",
+    "soyisim": "TUNÇER",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : ",
+    "geldiği kadro": "Sivas İl Emniyet Müdürlüğü",
+    "atandığı birim": "KARGI İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 33235286574,
+    "sicil": 410728,
+    "rütbe": "G.İ.H. Memuru",
+    "isim": "ABDULKADİR",
+    "soyisim": "ERDOĞAN",
+    "branş": "Branşı : Bilgisayar İşletmeni\r\nYan Branşı : -",
+    "geldiği kadro": "Diyarbakır İl Emniyet Müdürlüğü",
+    "atandığı birim": "TRAFİK DENETLEME ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 29023441072,
+    "sicil": 930156,
+    "rütbe": "Teknisyen",
+    "isim": "YUNUS EMRE",
+    "soyisim": "ÇOPUR",
+    "branş": "Branşı : Aşçı\r\nYan Branşı : -",
+    "geldiği kadro": "Ordu İl Emniyet Müdürlüğü\r\n\r\nÇorum-Polisevi Şube Müdürlüğünde Geçici görevli\r\n\r\nGeçiciden Asaleten Atama",
+    "atandığı birim": "POLİSEVİ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 18451782376,
+    "sicil": 326955,
+    "rütbe": "G.İ.H. Memuru",
+    "isim": "MUHAMMET",
+    "soyisim": "AYDIN",
+    "branş": "Branşı : Bilgisayar İşletmeni\r\nYan Branşı : -",
+    "geldiği kadro": "Amasya-Merzifon İlçe Emniyet Müdürlüğü / Merzifon Şehit Mustafa Demirci Polis Merkezi Amirliği / Grup Amirliği",
+    "atandığı birim": "SOSYAL HİZMETLER VE SAĞLIK ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 50545693984,
+    "sicil": 270739,
+    "rütbe": "Polis Memuru",
+    "isim": "YAŞAR",
+    "soyisim": "İN",
+    "branş": "Branşı : Genel Hizmet\r\nYan Branşı : ",
+    "geldiği kadro": "Ankara İl Emniyet Müdürlüğü",
+    "atandığı birim": "BAYAT İLÇE EMNİYET AMİRLİĞİ"
+  },
+  {
+    "tc": 33991267268,
+    "sicil": 925144,
+    "rütbe": "G.İ.H. Memuru",
+    "isim": "MURAT",
+    "soyisim": "ÇETİN",
+    "branş": "Branşı : Şoför\r\nYan Branşı : -",
+    "geldiği kadro": "Çorum Emniyet Müdürlüğü / Sosyal Hizmetler ve Sağlık Şube Müdürlüğü / Tabldot ve İş Ocakları Büro Amirliği",
+    "atandığı birim": "DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 31090945810,
+    "sicil": 929962,
+    "rütbe": "G.İ.H. Memuru",
+    "isim": "YASİN",
+    "soyisim": "ATAHAN",
+    "branş": "Branşı : Bilgisayar İşletmeni\r\nYan Branşı : -",
+    "geldiği kadro": "Kastamonu Pmyo / İdari Mali İşler Şube Müdürlüğü / Stratejik Yönetim Büro Amirliği",
+    "atandığı birim": "DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 40735042746,
+    "sicil": 960392,
+    "rütbe": "Teknisyen",
+    "isim": "EMRE",
+    "soyisim": "KÖSE",
+    "branş": "Branşı : Aşçı\r\nYan Branşı : -",
+    "geldiği kadro": "Şırnak Emniyet Müdürlüğü / Polisevi Şube Müdürlüğü / Mutfak-Restoran-Pastane Büro Amirliği",
+    "atandığı birim": "POLİSEVİ ŞUBE MÜDÜRLÜĞÜ"
+  },
+  {
+    "tc": 28222452636,
+    "sicil": 340235,
+    "rütbe": "G.İ.H. Memuru",
+    "isim": "EMRE",
+    "soyisim": "ÇAM",
+    "branş": "Bilgisayar İşletmeni",
+    "geldiği kadro": "Erzurum İl Emniyet Müdürlüğü",
+    "atandığı birim": "BAHÇELİEVLER POLİS MERKEZİ AMİRLİĞİ"
   }
 ]

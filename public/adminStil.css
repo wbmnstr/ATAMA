@@ -94,16 +94,15 @@ main {
     grid-area: mn;
 }
 /************************************/
-table tr:nth-child(odd){
-    background-color: #f5f5f5;
-}
-table tr:nth-child(even){
-    background-color: #cacaca;
-}
+
 table{
     border-spacing: 0;
+    border: #b8b8b8 thin solid;
+    background-color: white;
 }
-
+table td{
+    border: #b8b8b8 thin solid;
+}
 .preview{
     width: 600px;
     height: 334px;
@@ -140,25 +139,65 @@ form.imgupload{
     column-gap: 10px;
 }
 .imgradio label{
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 3px;
     background-color: transparent;
     max-height: max-content;
+    border: transparent 3px solid;
     cursor: pointer;
 }
 .imgradio label img{
-    height: 100px
+    height: 100px;
+    max-width:100px
 }
 .imgradio label input{
     display: none;
 }
 .imgradio label:has(input:checked){
-    background-color: yellow;
-    box-shadow: rgba(0,0,0,0.5) 0 0 20px;
+    border: #005CC8 3px solid;
+    box-shadow: rgba(0,0,0,0.7) 0 0 10px;
 }
 .warning{
     font-size: larger;
     background-color: goldenrod;
     padding: 20px;
     border-radius: 4px;
+}
+.radiogroup{
+    display: flex;
+}
+.radiogroup input{display:none}
+.radiogroup label{
+    padding: 3px 10px;
+    color: #005CC8;
+    border-top: thin solid #005CC8;
+    border-bottom: thin solid #005CC8;
+    border-left: thin solid #005CC8;
+}
+.radiogroup label:first-child{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.radiogroup label:last-child{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-right: thin solid #005CC8;
+}
+.radiogroup label:has(input:checked){
+    background-color: #005CC8;
+    color: white;
+}
+input[type='text']{
+    border: #005CC8 solid thin;
+    border-radius: 3px;
+    padding: 3px 10px;
+    color: #005CC8;
+    font-size: 1em;
+}
+input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    border: #005CC8 solid thin;
+}
+input[type='checkbox']:not(:checked){
 }

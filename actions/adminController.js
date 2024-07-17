@@ -1,8 +1,33 @@
-const content = require('../data/sorguekrani.json');
 const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
 const xlsx = require('xlsx');
+
+function sorguEkraniData() {
+    const contentPath = './data/sorguekrani.json';
+    let content = [];
+    if (fs.existsSync(contentPath, 'utf-8')) {
+        const data = fs.readFileSync(contentPath, 'utf8');
+        return JSON.parse(data);
+    } else {
+        return {
+            "fontsize": "small",
+            "fontcolor": "#333333",
+            "mainhead": "ATAMA SONUÇLARI",
+            "subhead": "2024 yılı Atama Sonuçları Sorgu Ekranı",
+            "input1label": "Sicil",
+            "input2label": "T.C. No",
+            "submitlabel": "SORGULA",
+            "shadow": "on",
+            "backgroundSize": "auto",
+            "backgroundPosition": "center",
+            "backgroundImage": "bg.jpg",
+            "logo": "logo.png",
+            "karartma": "on",
+            "formtema": "dark"
+        };
+    }
+}
 
 exports.get_adminhome = (req, res) => {
     res.render('admin/adminhome.pug', { active: "home" });
@@ -11,17 +36,18 @@ exports.get_adminhome = (req, res) => {
 /***SORGU EKRANI********************************************************* */
 exports.get_sorguekrani = (req, res) => {
     fs.readdir('public/bg', {}, (err, bgfiles) => {
-        if (err) {
-            res.render('admin/hata.pug', { error: err });
-        } else {
-            fs.readdir('public/logo', {}, (err, logofiles) => {
-                if (err) {
-                    res.render('admin/hata.pug', { error: err });
-                } else {
-                    res.render('admin/sorguekrani.pug', { active: "sorguekrani", content, bgfiles, logofiles });
-                }
-            })
-        }
+        if (err)
+            return res.render('admin/hata.pug', { error: err });
+
+        fs.readdir('public/logo', {}, (err, logofiles) => {
+            if (err)
+                return res.render('admin/hata.pug', { error: err });
+
+            const content = sorguEkraniData();
+            res.render('admin/sorguekrani.pug', { active: "sorguekrani", content, bgfiles, logofiles });
+
+        })
+
     })
 }
 exports.post_sorguekrani = async (req, res) => {
@@ -49,6 +75,7 @@ exports.get_logo = (req, res) => {
         if (err) {
             res.render('admin/hata.pug', { error: err });
         } else {
+            const content = sorguEkraniData();
             res.render('admin/logo.pug', { active: "logo", content, files });
         }
     })
@@ -159,9 +186,9 @@ exports.get_liste = (req, res) => {
             console.log('personellistesi.json dosyası bulunamadı veya okunamadı.');
         }
     } catch (err) {
-        res.render('admin/hata.pug', { error: err });        
+        res.render('admin/hata.pug', { error: err });
     }
-    
+
     res.render('admin/liste.pug', { active: "liste", liste });
 }
 

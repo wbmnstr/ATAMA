@@ -14,12 +14,55 @@ body{
 
 .container{
     padding-top: 20px;
-    background-image: linear-gradient(rgb(255 255 255 / 20%), rgb(255 255 255 / 60%));
     width: fit-content;
     border-radius: 10px;
     overflow: hidden;
     backdrop-filter: blur(2px) saturate(0);
 }
+
+.container.dark{
+    background-image: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 60%));
+    color: #ccc;
+}
+.container.dark input[type="submit"], .container.dark .formpart label{    
+    background-image: linear-gradient(#b1b1b1, #999999);
+}
+.container.dark input[type="submit"]:hover{    
+    background-image: linear-gradient(#999999, #b1b1b1);
+}
+
+.container.light{
+    background-image: linear-gradient(rgb(255 255 255 / 20%), rgb(255 255 255 / 60%));
+}
+.container.light input[type="submit"], .container.light .formpart label{    
+    background-image: linear-gradient(#585858, #727272);
+}
+.container.light input[type="submit"]:hover{    
+    background-image: linear-gradient(#727272, #585858);
+}
+
+.container.blue{
+    background-image: linear-gradient(rgba(0 132 255 / 0.2), rgb(0 132 255 / 60%));
+    color:#b4dbfa
+}
+.container.blue input[type="submit"], .container.blue .formpart label{    
+    background-image: linear-gradient(#1e5283, #063969);
+}
+.container.blue input[type="submit"]:hover{    
+    background-image: linear-gradient(#063969, #1e5283);
+}
+
+.container.red{
+    background-image: linear-gradient(rgba(255 30 0 / 0.2), rgb(255 30 0 / 60%));
+    color:#ffbdbd
+}
+.container.red input[type="submit"], .container.red .formpart label{    
+    background-image: linear-gradient(#831e1e, #690606);
+}
+.container.red input[type="submit"]:hover{    
+    background-image: linear-gradient(#690606, #831e1e);
+}
+
 header{
     padding: 0 30px;
     box-sizing: border-box;
@@ -41,17 +84,30 @@ p{
 form{margin:20px}
 
 .formpart *{
-    display: block;
-    font-size: 1.7em;
-
+    font-size: 1.5em;
 }
 
 .formpart{
     margin-top: 20px;
-}
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    border:rgba(255 255 255 / 0.8) solid 3px; 
+    outline: rgba(0 0 0 / 0.8) solid 1px;
 
+}
+.formpart label{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formpart input[type='text']{
+    flex:2
+}
 .formpart:last-child{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 input{
@@ -69,18 +125,19 @@ textarea{
 
 input[type="text"]{ 
     box-shadow: inset rgba(0,0,0,0.5) 0 0 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
  }
-input[type="submit"]{    
-    cursor: pointer;
-    background-image: linear-gradient(#444, #111, #444);
-    color: white;
-}
-input[type="submit"]:hover{    
-    cursor: pointer;
-    background-image: linear-gradient(#111, #333, #111);
-    color: white;
-}
+ input[type="text"]:focus{
+    outline: none;
+    background-color: #fffddb;
+} 
+
 input::placeholder{
     color:#ffe2ee;
     font-weight: 100;
+}
+input[type="submit"]{
+    color: white;
+    cursor: pointer;
 }

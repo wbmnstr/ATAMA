@@ -1,8 +1,36 @@
-const content = require('../data/sorguekrani.json');
 const fs = require('fs');
 
+function sorguEkraniData() {
+    const contentPath = './data/sorguekrani.json';
+    let content = [];
+    if (fs.existsSync(contentPath, 'utf-8')) {
+        const data = fs.readFileSync(contentPath, 'utf8');
+        console.log("json dosya bulundu");
+        return JSON.parse(data);
+    } else {
+        return {
+            "author":"wbmnstr",
+            "fontsize": "small",
+            "fontcolor": "#333333",
+            "mainhead": "ATAMA SONUÇLARI",
+            "subhead": "2024 yılı Atama Sonuçları Sorgu Ekranı",
+            "input1label": "Sicil",
+            "input2label": "T.C. No",
+            "submitlabel": "SORGULA",
+            "shadow": "on",
+            "backgroundSize": "auto",
+            "backgroundPosition": "center",
+            "backgroundImage": "bg.jpg",
+            "logo": "logo.png",
+            "karartma": "on",
+            "formtema": "dark"
+        };
+    }
+}
 
 exports.home = (req, res) => {
+    const content = sorguEkraniData();
+    console.log(content);
     res.render('client/home', { content });
 }
 
