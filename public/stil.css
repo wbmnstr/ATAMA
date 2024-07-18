@@ -141,3 +141,18 @@ input[type="submit"]{
     color: white;
     cursor: pointer;
 }
+
+table.sonucekrani{
+    border: none;
+    background:#fcfcfc;
+    color: #585858;
+    border-color: #ccc;
+    border-style: solid;
+    outline: #fcfcfc thick solid;
+}
+table.sonucekrani td{    
+    border-spacing: 0;
+    border-color: #ccc;
+    border-style: solid;
+}
+

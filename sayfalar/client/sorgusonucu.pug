@@ -6,22 +6,11 @@ block clientcontent
     if foundPersonel === null 
         p.warning(align="center") Sorgu Sonucu : Personel bulunamadı.
     else 
-        table(border=1 cellspacing=0 cellpadding=5 align='center') 
-            tr 
-                td SİCİL 
-                td=foundPersonel.sicil
-            tr 
-                td İSİM 
-                td=foundPersonel.isim
-            tr 
-                td SOYİSİM 
-                td=foundPersonel.soyisim
-            tr 
-                td Geldiği Birim 
-                td=foundPersonel.geldigi_birim
-            tr 
-                td Atandığı Birim 
-                td=foundPersonel.atandigi_birim
+        table.sonucekrani(border=1 cellspacing=0 cellpadding=5 align='center') 
+            each value, key in foundPersonel
+                tr 
+                    td=key.toLocaleUpperCase("tr-TR") 
+                    td=value
         br
         p Çorum İl Emniyet Müdürlüğüne Hoşgeldiniz; huzurlu, mutlu bir çalıma hayatı geçirmeniz dileğiyle. 
         ul 

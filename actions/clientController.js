@@ -5,7 +5,6 @@ function sorguEkraniData() {
     let content = [];
     if (fs.existsSync(contentPath, 'utf-8')) {
         const data = fs.readFileSync(contentPath, 'utf8');
-        console.log("json dosya bulundu");
         return JSON.parse(data);
     } else {
         return {
@@ -36,7 +35,7 @@ exports.home = (req, res) => {
 
 exports.sorgusonucu = (req, res) => {
     const { tc, sicil } = req.body;
-
+    const content = sorguEkraniData();
     const filePath = 'data/personellistesi.json';
     let liste = [];
     try {
