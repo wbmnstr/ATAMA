@@ -37,11 +37,11 @@ exports.get_adminhome = (req, res) => {
 exports.get_sorguekrani = (req, res) => {
     fs.readdir('public/bg', {}, (err, bgfiles) => {
         if (err)
-            return res.render('admin/hata.pug', { error: err });
+            return res.render('hata.pug', { error: err });
 
         fs.readdir('public/logo', {}, (err, logofiles) => {
             if (err)
-                return res.render('admin/hata.pug', { error: err });
+                return res.render('hata.pug', { error: err });
 
             const content = sorguEkraniData();
             res.render('admin/sorguekrani.pug', { active: "sorguekrani", content, bgfiles, logofiles });
@@ -54,14 +54,14 @@ exports.post_sorguekrani = async (req, res) => {
     try {
         await fs.writeFile('./data/sorguekrani.json', JSON.stringify(req.body), (err) => {
             if (err) {
-                res.render('admin/hata.pug', { error: err });
+                res.render('hata.pug', { error: err });
             } else {
                 console.log('Sorguekranı veri dosyası kaydedildi.');
                 res.redirect('/administrationpage');
             }
         });
     } catch (err) {
-        res.render('admin/hata.pug', { error: err });
+        res.render('hata.pug', { error: err });
     }
 }
 /*********************************************************************** */
@@ -73,7 +73,7 @@ exports.get_sonucekrani = (req, res) => {
 exports.get_logo = (req, res) => {
     fs.readdir('public/logo', {}, (err, files) => {
         if (err) {
-            res.render('admin/hata.pug', { error: err });
+            res.render('hata.pug', { error: err });
         } else {
             const content = sorguEkraniData();
             res.render('admin/logo.pug', { active: "logo", content, files });
@@ -112,7 +112,7 @@ exports.post_logo = (req, res) => {
 
     upload(req, res, (err) => {
         if (err) {
-            res.render('admin/hata.pug', { error: err });
+            res.render('hata.pug', { error: err });
         } else {
             res.redirect("/administrationpage/logo");
         }
@@ -122,7 +122,7 @@ exports.post_logo = (req, res) => {
 exports.get_arkaplan = (req, res) => {
     fs.readdir('public/bg', {}, (err, files) => {
         if (err) {
-            res.render('admin/hata.pug', { error: err });
+            res.render('hata.pug', { error: err });
         } else {
             res.render('admin/arkaplan.pug', { active: "arkaplan", files });
         }
@@ -161,7 +161,7 @@ exports.post_arkaplan = (req, res) => {
 
     upload(req, res, (err) => {
         if (err) {
-            res.render('admin/hata.pug', { error: err });
+            res.render('hata.pug', { error: err });
         } else {
             res.redirect("/administrationpage/arkaplan");
         }
@@ -186,7 +186,7 @@ exports.get_liste = (req, res) => {
             console.log('personellistesi.json dosyası bulunamadı veya okunamadı.');
         }
     } catch (err) {
-        res.render('admin/hata.pug', { error: err });
+        res.render('hata.pug', { error: err });
     }
 
     res.render('admin/liste.pug', { active: "liste", liste });
@@ -207,7 +207,7 @@ exports.post_liste = (req, res) => {
     const upload = multer({ storage }).single('personellistesi');
     upload(req, res, (err) => {
         if (err) {
-            res.render('admin/hata.pug', { error: err });
+            res.render('hata.pug', { error: err });
         } else {
             try {
                 const workbook = xlsx.readFile('data/personellistesi.xlsx');
@@ -217,7 +217,7 @@ exports.post_liste = (req, res) => {
                 console.log('dosya başarı ile yüklendi ve data dönüşümü tamamlandı.');
                 res.redirect("/administrationpage");
             } catch (err) {
-                res.render('admin/hata.pug', { error: err });
+                res.render('hata.pug', { error: err });
             }
         }
     })

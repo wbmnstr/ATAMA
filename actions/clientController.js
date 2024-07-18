@@ -49,11 +49,11 @@ exports.sorgusonucu = (req, res) => {
                 res.render('client/sorgusonucu', { content, foundPersonel: null });
             }
         } else {
-            res.render('admin/hata.pug', { error: "Veritabanı Görüntüleme Hatası!" });
+            res.render('hata.pug', { error: "Veritabanı Görüntüleme Hatası!" });
 
         }
     } catch (err) {
-        res.render('admin/hata.pug', { error: err });
+        res.render('hata.pug', { error: err });
     }
 
 }

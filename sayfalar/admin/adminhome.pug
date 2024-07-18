@@ -1,6 +1,42 @@
 extends ../administrationpage.pug
 block admincontent
-    div(style="display:flex; flex-direction:column; height:100%")
-        h3 Alttaki önizleme sadece sistemin yayınlandığı bilgisayar üzerinde görüntülenebilir.
-        font(color="red" size="+2") ÖNİZLEME
-        iframe#preview(src="http://localhost:5000/" width="100%" height="100%")
+
+    section 
+        h2 KURULUM
+        ol 
+            li İlk adım olarak <kbd>Liste yükleme</kbd> bölümünden isim listesini veya 
+                | atama listesini veya adı her ne ise, Liste Yükleme bölümünden sistemimize yüklüyoruz.
+                | Listemiz <b>.xlsx</b> uzantılı yani bir excel dosyası olmalı. 
+                | Bu excel dosyamızın içeriği ile ilgili özellikler aşağıdaki gibi olmalıdır.
+                ul
+                    li Excel dosyamızın isminin ne olduğu farketmez. <br>(mesela : <b>"Atama 
+                        | Sonuçları Listesi.xlsx"</b> olabilir.)
+                    li Excel dosyamızın içerisinde sadece bir sayfa yada sekme olmalı.
+                    li Excel dosyamızın <b>ilk satırında</b> başlıklar olmalı. <br>
+                        | ( T.C No | Sicil | Adı | Soyadı | Eski Çalışıtğı Yer | Atandığı Birim | Vesaire ) <br>
+                        | Bu başlıklar <b>A1</b> hücresinden başlamalı, yani ilk satır ilk hücreden...
+                    li <b>"Sıra No"</b> gibi gereksiz sütunlar olmamalı, silinmeli.
+                    li Excel sayfamızın hiçbir yerinde <b>birleştirilmiş hücreler</b> veya <b>boş satırlar</b> 
+                        | olmamalı.
+                    li Excel sayfamızın <b>ilk sütunu</b> T.C. No, <b>ikinci sütunu</b> Sicil olmalı, aksi takdirde 
+                        | sorgu işlemi gerçekleşmeyecektir.
+                    li İlk iki sütunu Tc ve Sicil olarak ayarladıktan sonra diğer sütunlar keyfinize kalmış. 
+                        | İstediğiniz kadar sütun ekleyebilirsiniz. (Abartmamanızı tavsiye ederiz. Tüm sütunlar 
+                        | sorgu sonucu tablosunda başlıklar şeklinde görüntüleneceğini bilmelisiniz.)
+            li <kbd>Logo</kbd> Bölümünde kurumumuzun logosunu yüklüyoruz. Logo resmimiz <b>.png</b> uzantılı, 
+                | Png dosya türünde olmalıdır.
+            li <kbd>Arkaplan</kbd> Bölümünde, sorgu sayfamızın arkplanında görünmesini istediğiniz resmin 
+                | yüklemesini yapıyorsunuz. Bu bölümde yükleyeceğimiz resmimiz bu sefer <b>.jpg</b> 
+                | uzantılı olmalıdır.
+            li <kbd>Sayfa Düzeni</kbd> Bölümünde sayfamızın tasarımı ile ilgili ayarlamalarımızı yapıyoruz.
+
+    style.
+        kbd{
+            background:#555;
+            color:#fff;
+            padding: 2px 5px;
+            border-radius:3px
+        }
+        b{
+            color:crimson
+        }

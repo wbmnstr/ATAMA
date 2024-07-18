@@ -11,7 +11,7 @@ block admincontent
     form(action="/administrationpage/sorguekrani", method="post") 
         table(border=1 cellspacing=0 cellpadding="5") 
             tr 
-                td Ana Başlık 
+                td(width=200) Ana Başlık 
                 td 
                     input(type="text" name="mainhead" value=content.mainhead)
             tr 
@@ -60,7 +60,7 @@ block admincontent
                             input(type="radio" name="formtema" value="blue" checked=content.formtema == "blue") 
                             | Mavi
             tr
-                td Arkaplan Döşeme Stili : 
+                td Arkaplan Döşeme Stili 
                 td
                     .radiogroup
                         label
@@ -74,7 +74,7 @@ block admincontent
                             span Gerçek boyut
 
             tr 
-                td Arkaplan Konumu : 
+                td Arkaplan Konumu 
                 td
                     .radiogroup
                         label
@@ -111,7 +111,7 @@ block admincontent
                                 input(type="radio" name="backgroundImage" width=100 value=file  checked=content.backgroundImage == file) 
                                 img(src="/bg/"+file )
             tr
-                td Arkaplan Resmi : 
+                td Logo Resmi : 
                 td  
                     .imgradio
                         each file, ind in logofiles
