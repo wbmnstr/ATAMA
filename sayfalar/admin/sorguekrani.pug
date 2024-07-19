@@ -10,7 +10,11 @@ block admincontent
 
     form(action="/administrationpage/sorguekrani", method="post") 
         table(border=1 cellspacing=0 cellpadding="5") 
+                    
+            // S  O  R  G  U     E  K  R  A  N  I        
             tr 
+                td(rowspan=5) 
+                    span(style="writing-mode:vertical-rl") Sorgu Ekranı
                 td(width=200) Ana Başlık 
                 td 
                     input(type="text" name="mainhead" value=content.mainhead)
@@ -30,8 +34,31 @@ block admincontent
                 td Submit Butonu etiketi 
                 td 
                     input(type="text" name="submitlabel" value=content.submitlabel)
+
+            // S  O  N  U  Ç     E  K  R  A  N  I        
             tr 
-                td(width=200) Yazı Boyutu 
+                td(rowspan=4) 
+                    span(style="writing-mode:vertical-rl") Sonuç Ekranı
+                td(width=200) Ana Başlık 
+                td 
+                    input(type="text" name="sonucmainhead" value=content.sonucmainhead)
+            tr 
+                td Alt Metin 
+                td 
+                    input(type="text" name="sonucsubhead" value=content.sonucsubhead)
+            tr 
+                td Açıklama Metni 
+                td 
+                    textarea(name="sonucaciklama" cols=50 rows=3)=content.sonucaciklama
+            tr 
+                td Kapat Butonu etiketi 
+                td 
+                    input(type="text" name="sonucclosebtn" value=content.sonucclosebtn)
+
+
+            //  G  E  N  E  L    K  O N  U  L  A  R
+            tr 
+                td(colspan=2 width=200) Yazı Boyutu 
                 td 
                     .radiogroup
                         label
@@ -44,7 +71,7 @@ block admincontent
                             input(type="radio" name="fontsize" value="large" checked=content.fontsize == "large") 
                             | Büyük
             tr 
-                td Form Teması 
+                td(colspan=2)  Form Teması 
                 td 
                     .radiogroup
                         label
@@ -60,7 +87,7 @@ block admincontent
                             input(type="radio" name="formtema" value="blue" checked=content.formtema == "blue") 
                             | Mavi
             tr
-                td Arkaplan Döşeme Stili 
+                td(colspan=2)  Arkaplan Döşeme Stili 
                 td
                     .radiogroup
                         label
@@ -72,9 +99,8 @@ block admincontent
                         label
                             input(type="radio" name="backgroundSize" value="auto" checked=content.backgroundSize == "auto")
                             span Gerçek boyut
-
             tr 
-                td Arkaplan Konumu 
+                td(colspan=2)  Arkaplan Konumu 
                 td
                     .radiogroup
                         label
@@ -93,17 +119,17 @@ block admincontent
                             input(type="radio" name="backgroundPosition" value="bottom" checked=content.backgroundPosition == "bottom")
                             | Alt
             tr 
-                td Form için Gölge Efekti 
+                td(colspan=2)  Form için Gölge Efekti 
                 td 
                     label
                         input(type="checkbox" name="shadow" checked=content.shadow == 'on')
             tr 
-                td Arkaplan karartma
+                td(colspan=2)  Arkaplan karartma
                 td 
                     label
                         input(type="checkbox" name="karartma" checked=content.karartma == 'on')
             tr
-                td Arkaplan Resmi : 
+                td(colspan=2)  Arkaplan Resmi : 
                 td  
                     .imgradio
                         each file, ind in bgfiles
@@ -111,7 +137,7 @@ block admincontent
                                 input(type="radio" name="backgroundImage" width=100 value=file  checked=content.backgroundImage == file) 
                                 img(src="/bg/"+file )
             tr
-                td Logo Resmi : 
+                td(colspan=2)  Logo Resmi : 
                 td  
                     .imgradio
                         each file, ind in logofiles
@@ -119,6 +145,5 @@ block admincontent
                                 input(type="radio" name="logo" value=file  checked=content.logo == file) 
                                 img(src="/logo/"+file )
             tr 
-                td 
-                td 
-                    input(type="submit" value="KAYDET")
+                td(colspan=3) 
+                    input(type="submit" value="KAYDET" style="width:100%; height:3em")

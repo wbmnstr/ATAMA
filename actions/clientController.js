@@ -9,28 +9,31 @@ function sorguEkraniData() {
     } else {
         return {
             "author":"wbmnstr",
-            "fontsize": "small",
-            "fontcolor": "#333333",
             "mainhead": "ATAMA SONUÇLARI",
             "subhead": "2024 yılı Atama Sonuçları Sorgu Ekranı",
             "input1label": "Sicil",
             "input2label": "T.C. No",
             "submitlabel": "SORGULA",
-            "shadow": "on",
+            "sonucmainhead":"ATAMA SONUCU",
+            "sonucsubhead":"Yeni Yerinizde Başarılar dileriz.",
+            "sonucaciklama":"1- başlama yapmak için vesaire vesaire evraklarınızı getiriniz.\r\n2- Direk atandığınız birimde başlama yapınız.\r\n3- bir haftya mesaiden sonra makama görüşe çıkın\r\nkoruma şubeden giriş kartınızı alın.\r\n4- kanti alışveriş için sosyal hizmetlerden hesap oluşturun",
+            "sonucclosebtn":"Yeni Sorgu",
+            "fontsize": "medium",
+            "formtema": "light",
             "backgroundSize": "auto",
             "backgroundPosition": "center",
-            "backgroundImage": "bg.jpg",
-            "logo": "logo.png",
+            "shadow": "on",
             "karartma": "on",
-            "formtema": "dark"
+            "backgroundImage": "bg.jpg",
+            "logo": "logo.png"
         };
     }
 }
 
 exports.home = (req, res) => {
     const content = sorguEkraniData();
-    console.log(content);
-    res.render('client/home', { content });
+    console.log(req.connection.remoteAddress);
+    res.render('client/home', { content, ip : req.connection.remoteAddress });
 }
 
 exports.sorgusonucu = (req, res) => {
@@ -43,6 +46,7 @@ exports.sorgusonucu = (req, res) => {
             const data = fs.readFileSync(filePath, 'utf8');
             liste = JSON.parse(data);
             const foundPersonel = liste.find(personel => personel.sicil.toString() === sicil && personel.tc.toString() === tc);
+            //const foundPersonel = liste.find(personel => personel[Object.keys(personel)[1]].toString() === sicil && personel[Object.keys(personel)[0]].toString() === tc);
             if (foundPersonel) {
                 res.render('client/sorgusonucu', { content, foundPersonel: foundPersonel });
             } else {
