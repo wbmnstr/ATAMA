@@ -202,5 +202,3 @@ input[type='checkbox']{
     height: 20px;
     border: #005CC8 solid thin;
 }
-input[type='checkbox']:not(:checked){
-}

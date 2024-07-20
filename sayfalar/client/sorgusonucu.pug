@@ -1,10 +1,10 @@
 extends ../clientpage
 block clientcontent
     header 
-        h1(align="center") Sorgu sonucu 
+        h1(align="center")=content.sonucmainhead
     
     if foundPersonel === null 
-        p.warning(align="center") Sorgu Sonucu : Personel bulunamadı.
+        p.warning(align="center") Girdiğiniz bilgiler ile ilgili kayıt bulunamadı.
     else 
         table.sonucekrani(border=1 cellspacing=0 cellpadding=5 align='center') 
             each value, key in foundPersonel
@@ -12,16 +12,8 @@ block clientcontent
                     td=key.toLocaleUpperCase("tr-TR") 
                     td=value
         br
-        p Çorum İl Emniyet Müdürlüğüne Hoşgeldiniz; huzurlu, mutlu bir çalıma hayatı geçirmeniz dileğiyle. 
-        ul 
-            li başlama yapmak için vesaire vesaire evraklarınızı gertiriniz.
-            li direk atandığınız birimde başlama yapınız.
-            li bir haftya mesaiden sonra makama görüşe çıkın 
-            li koruma şubeden giriş kartınızı alın.
-            li kanti alışveriş için sosyal hizmetlerden hesap oluşturun 
-            li Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum doloremque reprehenderit quia, soluta minus deserunt necessitatibus. Nemo illo laudantium sunt ut voluptate voluptatem earum blanditiis recusandae soluta laborum! Unde, earum?Ipsum molestias distinctio, ea nulla placeat molestiae quo sint corrupti ratione aspernatur reprehenderit quos aliquid soluta assumenda iusto facilis ad. Commodi eaque cum fugit recusandae in minima ipsa, repudiandae obcaecati?Qui corrupti odit doloribus! Optio placeat vero voluptatum, nam quaerat autem debitis quasi soluta voluptas praesentium architecto error voluptate libero enim sed dolore dolorem repellat magnam. Totam quod expedita inventore.
-            li Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, cumque! Maxime explicabo cupiditate, voluptatibus error corrupti fuga voluptas tempora doloremque est voluptatum minima quam perspiciatis, veniam quod illum quas nam?Aliquam similique modi nemo non officiis ipsa beatae voluptatum velit consequatur! Beatae, ullam. Corrupti exercitationem alias beatae at repudiandae incidunt blanditiis ex harum? Dolorem, optio corporis maiores ipsa sunt ex.
-            li Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo aliquid quod eos ipsum quo odit repellat, similique veritatis, autem voluptas pariatur totam dignissimos omnis! Voluptates aperiam possimus eligendi enim architecto?
+        h3(align='center')=content.sonucsubhead
+        pre=content.sonucaciklama
 
     
-    a.btn1(href="/") Yeni Sorgu
+    a.yenisorgu(href="/")='❌ '+content.sonucclosebtn
